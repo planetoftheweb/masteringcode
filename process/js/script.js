@@ -23,10 +23,19 @@ function handleItem(id, text) {
   targetElement.insertBefore(newElement, targetElement.childNodes[2]);
 }
 
+function initItem(id, text) {
+  return function() {
+    handleItem(id, text);
+  }
+}
 
 function setupitem() {
   var DOMElement;
 
+  for (var i = 0; i < itemText.length; i++) {
+    DOMElement = document.querySelector(itemText[i].id);
+    DOMElement.addEventListener('focus', initItem(itemText[i].id, itemText[i].text));
+  } // Loop
 } // setupitem
 
 setupitem();
