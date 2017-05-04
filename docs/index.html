@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Learning</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"></head>
+		<link rel="stylesheet" href="css/learning.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( 'print-pdf/gi' ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+<div class="reveal">
+<div class="slides">
+
+<section data-markdown="slides/demo.md" data-separator="\n---\n" data-separator-notes=">>">
+</section>
+
+
+</div><!-- slides -->
+</div><!-- reveal -->
+
+		<script src="js/lib/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			function getUrlVars() {
+					var vars = [], hash;
+					var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+					for(var i = 0; i < hashes.length; i++)
+					{
+							hash = hashes[i].split('=');
+							vars.push(hash[0]);
+							vars[hash[0]] = hash[1];
+					}
+					return vars;
+			}
+
+			if (getUrlVars().d) {
+				var dataFile = getUrlVars().d;
+				console.log('slides/' + dataFile + '.md');
+				document.querySelector('section').dataset.markdown = 'slides/' + dataFile + '.md';
+				console.log(document.querySelector('section').dataset.markdown);
+			}
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				fragments: true,
+				history: true,
+				width: 960,
+				height: 700,
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+    		transitionSpeed: 0, // default/fast/slow
+		    backgroundTransition: 'none',
+				center: false,
+				controls: false,
+			  progress: false,
+  			rollingLinks: false,
+
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'js/plugin/markdown/marked.js' },
+					{ src: 'js/plugin/markdown/markdown.js' },
+					{ src: 'js/plugin/notes/notes.js', async: true },
+					{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function() { 
+						hljs.configure({
+							tabReplace: '  ', // 2 spaces
+						})
+						hljs.initHighlightingOnLoad(); 
+					}}
+				]
+			});
+
+			//Modifying all the PRE tags so they are teditable
+			Reveal.addEventListener( 'ready', function( event ) {
+				var nodes = document.querySelectorAll('pre');
+				nodes.forEach(function(item) {
+					item.contentEditable=true;
+					item.dataset.trim = true;
+				}, this);
+			});
+			
+		</script>
+	</body>
+</html>
+<!-- .element: class="fragment"-->
