@@ -65,6 +65,11 @@ gulp.task('webserver', function() {
       port: 3000,
       open: true
     }));
+  gulp.src('docs')
+    .pipe(webserver({
+      port: 3333,
+    }));
+    
 });
 
 gulp.task('default', ['html', 'sass', 'js', 'webserver','watch']);
