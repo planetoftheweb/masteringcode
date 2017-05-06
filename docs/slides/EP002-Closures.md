@@ -26,13 +26,13 @@ Bringing Closures
 ## Closures
 <ul>
 <li class="fragment">Closures in <a href="http://jsbin.com/xijibiqada/1/edit?js,console">objects</a></li>
-<li class="fragment">Closures <a href="http://jsbin.com/dizika/3/edit?js,console">inside loops</a></li>
+<li class="fragment">Closures inside loops</li>
 <li class="fragment">Creating a function factory</li>
 
 >> Author Notes:
 - Closures are super common inside object definitions, and they can show you how the closures can remember state a bit better, so let's take a look at an example there.
-- One thing you have to be careful about is using closures inside loops. Since closures remember the value of the environment they were created in, inside loop those variables are constantly changing and by the time the closures are called, the loop has already modified the values in the loop. Let's take a look at that and how we can work around it.
-- Creating a closure inside a loop is actually a technique called a function factory where you create a loop to generate a series of closures. That's specially useful for creating a series of events.
+- Since closures remember the value of the environment they were created in, inside loop those variables are constantly changing and by the time the closures are called, the loop has already modified the values in the loop. That's a common mistake, but it's also sometimes desireable.
+- Creating a closure inside a loop is a technique called a function factory where you create a loop to generate a series of closures. It's useful for creating a series of events.
 
 ```script.js
 function initItem(id, text) {
