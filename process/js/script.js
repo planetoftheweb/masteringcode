@@ -1,15 +1,5 @@
-var colors = [
-               '#C94C24', //orange
-               '#268BD2', //blue
-               '#C4226F', //pink
-               '#859835', // lime
-               '#6D73C2', // purple
-               '#37A198', // green
-               '#DA3637', //red
-               '#F0AD4E' //yellow
-             ];
+(function(howMany, colors) {
 
-function makeBoxes(howMany) {
   var colorAmt = colors.length;
   var currColor = 0;
   var myElement;
@@ -33,6 +23,13 @@ function makeBoxes(howMany) {
     e.target.parentNode.removeChild(e.target);
   }, false);
 
-}
-
-makeBoxes(10);
+})(20, [
+  '#C94C24', //orange
+  '#268BD2', //blue
+  '#C4226F', //pink
+  '#859835', // lime
+  '#6D73C2', // purple
+  '#37A198', // green
+  '#DA3637', //red
+  '#F0AD4E' //yellow
+]);
