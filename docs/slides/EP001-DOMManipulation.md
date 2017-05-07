@@ -2,7 +2,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Selecting the DOM
+DOM Manipulation
 
 >> Author Notes:
 - The DOM or Document Object Model is one of the most fundamentals components of any web application. Understanding what a developer knows about reading, writing and modifying the DOM is a good to way gauge their level of skill. It's also important for every developer to understand how to access, modify and remove elements within the DOM. Let's take a look at some definitions and then dig into some code.
