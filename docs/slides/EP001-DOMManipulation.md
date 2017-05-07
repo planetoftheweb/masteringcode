@@ -76,3 +76,18 @@ Now, in an interview, you might be asked to show how well you undertand the DOM 
 
 >> Author Notes:
 - The DOM is super complex and there are lots more methods and properties that you should learn more about. Here are some pages where you can get more information about the DOM and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
+
+```
+  var currColor = 0;
++  var myElement;
++  var myNode = document.querySelector('.boxes');
++
+  for (var i = 0; i < howMany; i++) {
++    myElement = document.createElement('div');
++    myElement.className = 'box';
++    myElement.style = 'background-color: ' + colors[currColor];
++    myNode.appendChild(myElement);
++    myNode.addEventListener('click', function(e) {
++      e.target.parentNode.removeChild(e.target);
++    }, false);
+```
