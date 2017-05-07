@@ -1,42 +1,26 @@
-var itemText = [
-  { 'id': '#symptoms', 
-    'text': 'It is important to be as detailed as possible with your description of symptoms. Note changes in bathroom habits, weight loss, responsiveness and anything you can think of.' },
-  { 'id': '#medications',
-    'text': 'Please list all medications and make sure you list the date and the dosage you gave to your pet' }
-];
+var colors = [
+               '#C94C24', //orange
+               '#268BD2', //blue
+               '#C4226F', //pink
+               '#859835', // lime
+               '#6D73C2', // purple
+               '#37A198', // green
+               '#DA3637', //red
+               '#F0AD4E' //yellow
+             ];
 
-function handleItem(id, text) {
-  var newElement, targetElement, currentAlert;
+function makeBoxes(howMany) {
+  var colorAmt = colors.length;
+  var currColor = 0;
 
-  currentAlert = document.querySelector('#currentAlert');
+  for (var i = 0; i < howMany; i++) {
 
-  if (currentAlert !== null) {
-    currentAlert.parentNode.removeChild(currentAlert);
-  }
-
-  newElement = document.createElement('div');
-  newElement.id = 'currentAlert';
-  newElement.className = 'alert alert-danger';
-  newElement.innerHTML =  text;
-  
-  targetElement= document.querySelector(id).parentNode;
-  targetElement.insertBefore(newElement, targetElement.childNodes[2]);
-}
-
-function initItem(id, text) {
-  return function() {
-    handleItem(id, text);
+    if (currColor === colorAmt-1) {
+      currColor = 0;
+    } else {
+      currColor++;
+    }
   }
 }
 
-
-function setupitem() {
-  var DOMElement;
-
-  for (var i = 0; i < itemText.length; i++) {
-    DOMElement = document.querySelector(itemText[i].id);
-    DOMElement.addEventListener('focus', initItem(itemText[i].id, itemText[i].text));
-  }
-} // setupitem
-
-setupitem();
+makeBoxes(20);
