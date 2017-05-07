@@ -8,13 +8,15 @@ What's an IFFE?
 - An IFFE is a convention in javascript that helps you protect variables as well as execute some code immediately.
 
 ---
+
+## IFFE
+
 ```
 (function() {
   //Isolate Code Here
 })();
 ```
 
-## IFFE
 <ul>
   <li class="fragment">Immediately-invoked</li>
   <li class="fragment">Function</li>
@@ -46,3 +48,67 @@ It's stands for Immediately-Invoked Function Expression and there's a lot happen
 
 >> Author Notes:
 - Here are some pages where you can get more information about the IFFE pattern and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
+
+```
+function enclose() {
+}
+enclose();
+```
+
+```
+var enclose  = function protect() {
+}();
+```
+
+```
+var enclose  = function() {
+}();
+```
+
+```
+(function() {
+})();
+```
+
+
+```
+(function() {
+
+var colors = [
+               '#C94C24', //orange
+               '#268BD2', //blue
+               '#C4226F', //pink
+               '#859835', // lime
+               '#6D73C2', // purple
+               '#37A198', // green
+               '#DA3637', //red
+               '#F0AD4E' //yellow
+             ];
+
++  var howMany = 10;
+  var colorAmt = colors.length;
+  var currColor = 0;
+  var myElement;
+  var myNode = document.querySelector('.boxes');
+
+  for (var i = 0; i < howMany; i++) {
+
+    myElement = document.createElement('div');
+    myElement.className = 'box';
+    myElement.style = 'background-color: ' + colors[currColor];
+    myNode.appendChild(myElement);
+
+    if (currColor === colorAmt-1) {
+      currColor = 0;
+    } else {
+      currColor++;
+    }
+  }
+
+  myNode.addEventListener('click', function(e) {
+    e.target.parentNode.removeChild(e.target);
+  }, false);
+
+})();
+
+```
