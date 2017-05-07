@@ -1,7 +1,9 @@
-:root {
-  --myColor: #FFCF4E;
-}
-
-body {
-  background: var(--myColor);
+.box {
+  display: block;
+  background: #DDD;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  float: left;
+  margin: 5px;
 }

@@ -177,7 +177,10 @@ body {
 .reveal li code {
   background: #eee;
   color: #0077B5;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-size: 90%;
+  padding: 0;
+  }
 
 .reveal pre code {
   display: block;
