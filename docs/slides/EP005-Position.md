@@ -13,7 +13,7 @@ CSS Position
 
 <ul>
   <li class="fragment">`static`, `relative`, `absolute`, `fixed`</li>
-  <li class="fragment">Adjustable? (trbl)</li>
+  <li class="fragment">Adjustable? (t r b l)</li>
   <li class="fragment">Remove from flow?</li>
   <li class="fragment">Relative to what?</li>
 </ul>
@@ -36,7 +36,7 @@ The position property is particularly useful for creating things like tooltips o
 
 |                     |  static | relative | absolute | fixed |
 |---|:---:|:---:|:---:|:---:|
-| **Adjustable**<br>(top, right, bottom, left)	    | no      | yes      | yes      | yes   |
+| **Adjustable**<br><small>(top, right, bottom, left)</small>	    | no      | yes      | yes      | yes   |
 | **Flow**	          | normal | normal | removed | removed |
 | **Relative to**     | n/a | current | parent/<br>document | document |
 
