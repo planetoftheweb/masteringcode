@@ -14,6 +14,7 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   border-radius: 4px; 
   color: #fff; 
   background-color: hsl(175, 49%, 42%);
+  position: relative;
 }
 
 .tooltip {
@@ -23,4 +24,12 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   padding: 6px 12px; 
   border-radius: 10px 10px 10px 0;
   white-space: nowrap;
+  display: none;
+  position: absolute;
+}
+
+.btn:hover .tooltip {
+  display: block;
+  bottom: 40px;
+  left: 10px;
 }

@@ -46,13 +46,13 @@ The position property is particularly useful for creating things like tooltips o
 ---
 ## Resources
 <ul>
-  <li><a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Defining an IFFE</a></li>
-  <li><a href="http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript">IFFE question in Stack Overflow</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN: Position</a></li>
+  <li><a href="https://css-tricks.com/almanac/properties/p/position/">CSS Tricks: Position</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training">JavaScript Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions">JavaScript: Functions</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-for-web-designers-2">Javascript for Web Designers</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-page-layouts?u=104">CSS: Page Layouts</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training-1?u=104">CSS: Essential Training 1</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training-2?u=104">CSS: Essential Training 2</a></li>
 
     </ul>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
