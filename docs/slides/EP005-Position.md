@@ -13,7 +13,7 @@ CSS Position
 
 <ul>
   <li class="fragment">`static`, `relative`, `absolute`, `fixed`</li>
-  <li class="fragment">Adjustable? (t r b l)</li>
+  <li class="fragment">Adjustable? <small>(top right bottom left)</small></li>
   <li class="fragment">Remove from flow?</li>
   <li class="fragment">Relative to what?</li>
 </ul>
