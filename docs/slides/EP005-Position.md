@@ -23,9 +23,9 @@ The position property is particularly useful for creating things like tooltips o
 
 - There are four main position properties available...The default position is called static, and the other ones are relative, absolute and fixed. There's an experimental property called sticky that allows content to stick to the page as it is scrolled, but it barely has any browser support as of now, so we'll skip this one.
 
-- One of the differences between these properties lets you control wether the position of the element is adjustable by using additional position properties for top right bottom or left.
+- One of the differences between these properties lets you control whether the position of the element is adjustable by using additional position properties for top right bottom or left.
 
-- Another difference is wether the property removes the current element from the normal flow from the document. If it removed, the block containing the element will behave as it weren't there at all.
+- Another difference is whether the property removes the current element from the normal flow from the document. If it removed, the block containing the element will behave as it weren't there at all.
 
 - Finally, the change in position happens in relation to different elements on the pager or with the normal position of the document. Let's review.
 
