@@ -16,16 +16,6 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   }
 }
 
-.nav .navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-  @media all and (min-width: 600px) {
-    flex-direction: row;
-  }
-} /* navbar */
-
 .nav .navbar a {
   color: hsl(15, 80%, 50%);
   font-weight: 600;
@@ -40,5 +30,5 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   color: hsl(15, 70%, 36%);
   @media all and (max-width: 600px) {
     background-color: hsl(45, 41%, 88%);
-  }  
+  }
 } /* hover */
