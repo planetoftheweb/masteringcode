@@ -16,6 +16,16 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   }
 }
 
+.nav .navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media all and (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
 .nav .navbar a {
   color: hsl(15, 80%, 50%);
   font-weight: 600;
