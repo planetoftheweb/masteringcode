@@ -28,3 +28,9 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   display: none;
   position: absolute;
 }
+
+.btn .tooltip.active {
+  display: block;
+  bottom: 40px;
+  left: 10px;
+}
