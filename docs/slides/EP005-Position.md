@@ -23,9 +23,9 @@ The position property is particularly useful for creating things like tooltips o
 
 - There are four main position properties available...The default position is called static, and the other ones are relative, absolute and fixed. There's an experimental property called sticky that allows content to stick to the page as it is scrolled, but it barely has any browser support as of now, so we'll skip this one.
 
-- One of the differences between these properties lets you control wether the position of the element is adjustable by using additional position properties for top right bottom or left.
+- One of the differences between these properties lets you control whether the position of the element is adjustable by using additional position properties for top right bottom or left.
 
-- Another difference is wether the property removes the current element from the normal flow from the document. If it removed, the block containing the element will behave as it weren't there at all.
+- Another difference is whether the property removes the current element from the normal flow from the document. If it removed, the block containing the element will behave as it weren't there at all.
 
 - Finally, the change in position happens in relation to different elements on the pager or with the normal position of the document. Let's review.
 
@@ -46,13 +46,13 @@ The position property is particularly useful for creating things like tooltips o
 ---
 ## Resources
 <ul>
-  <li><a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Defining an IFFE</a></li>
-  <li><a href="http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript">IFFE question in Stack Overflow</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN: Position</a></li>
+  <li><a href="https://css-tricks.com/almanac/properties/p/position/">CSS Tricks: Position</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training">JavaScript Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions">JavaScript: Functions</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-for-web-designers-2">Javascript for Web Designers</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-page-layouts?u=104">CSS: Page Layouts</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training-1?u=104">CSS: Essential Training 1</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training-2?u=104">CSS: Essential Training 2</a></li>
 
     </ul>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
