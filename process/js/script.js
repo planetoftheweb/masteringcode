@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var tips = document.querySelectorAll('.hastip');
 
 for(var i = 0; i < tips.length; i++) {
@@ -5,3 +6,5 @@ for(var i = 0; i < tips.length; i++) {
     e.target.querySelector('.tooltip').classList.toggle('active');
   }, false);
 }
+=======
+>>>>>>> EP007t
