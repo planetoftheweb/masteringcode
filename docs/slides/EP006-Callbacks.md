@@ -29,8 +29,7 @@ Callbacks
 ## Resources
 <ul>
   <li><a href="http://callbackhell.com/">Callback Heck</a></li>
-  <li>`classList` <a href="http://caniuse.com/#search=classList"> browser support</a></li>
-  <li>`classList` <a href="http://callbackhell.com/"> pollyfill</a></li>
+  <li>`classList` <a href="http://caniuse.com/#search=classList"> browser support</a> <a href="http://callbackhell.com/"> pollyfill</a></li>
   <li style="list-style: none;">
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions">JavaScript: Functions</a></li>
