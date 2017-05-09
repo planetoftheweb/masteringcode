@@ -6,7 +6,8 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   display: inline-block; 
   padding: 6px 12px; 
   font-size: 1rem; 
-  line-height: 1.42857143; 
+  line-height: 1.42857143;
+  outline: none;
   text-align: center; 
   cursor: pointer; 
   background-image: none; 
@@ -28,7 +29,7 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   position: absolute;
 }
 
-.btn:hover .tooltip {
+.btn .tooltip.active {
   display: block;
   bottom: 40px;
   left: 10px;
