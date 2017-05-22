@@ -1,0 +1,52 @@
+.nav {
+
+  .container {
+    max-width: 1200px;
+    @media all and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: $beige;
+
+    @media all and (min-width: 600px) {
+      flex-direction: row;
+      background: none;
+    }
+
+    &.hidden {
+      @media all and (max-width: 600px) {
+        display: none;
+      }
+    }
+
+    .btn {
+      margin: 0 auto;
+      text-align:  center;
+    }
+
+    a {
+      color: $orange;
+      font-weight: 600;
+      font-size: 1.2rem;
+      text-decoration: none;
+      padding: 16px 9px;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    a:hover {
+      color: darken($orange, 20);
+      @media all and (max-width: 600px) {
+        background-color: hsl(45, 41%, 88%);
+      }
+    } /* hover */
+
+
+
+  }
+}
