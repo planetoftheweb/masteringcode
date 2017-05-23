@@ -13,8 +13,8 @@ CSS Variables
 
 <ul>
   <li class="fragment">Use today with PostCSS</li>
-  <li class="fragment">Define in `:root`</li>
-  <li class="fragment">Define `--yellow` `@custom`</li>
+  <li class="fragment">Create in `:root`</li>
+  <li class="fragment">Define `--yellow`, `@custom`</li>
   <li class="fragment">Use with `var(--yellow)`, `@apply`</li>
 </ul>
 
