@@ -1,11 +1,9 @@
 {
-  "name": "nextgen",
+  "name": "masteringcode",
   "version": "1.0.0",
-  "description": "A repository for Mastering Code Interview",
+  "description": "A repository for my Mastering Code course",
   "main": "gulpfile.js",
   "devDependencies": {
-    "babel-preset-env": "^1.4.0",
-    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-postcss": "^6.4.0",
