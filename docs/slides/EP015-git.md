@@ -29,6 +29,12 @@ Version Control
 
 1. If you've got a few minutes, and you've never used git, let's practice the basics. You're going to need to have installed two things. First, you'll need to install Git, which you can find at [this URL](https://git-scm.com), then you'll need NodeJS, which you can [find here](https://nodejs.org/en). To make things quick, I've prepared a zip file with some code that you can download at [this URL]().
 
+https://github.com/planetoftheweb/masteringcode/raw/master/builds/masteringcode/masteringcode.zip
+
+https://gist.github.com/planetoftheweb/d42124d1e87e47c054d28a8d55487ab5
+
+https://gist.github.com/planetoftheweb/b238889e27f4c8be8d100fbdfca97cab
+
 ---
 ## Resources
 <ul>
