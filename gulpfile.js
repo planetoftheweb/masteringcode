@@ -72,4 +72,4 @@ gulp.task('webserver', function() {
     
 });
 
-gulp.task('default', ['html', 'css', 'js', 'webserver','watch']);
+gulp.task('default', ['html', 'postcss', 'js', 'webserver','watch']);
