@@ -1,0 +1,88 @@
+
+.nav .btn.hamburger {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: hsl(175, 49%, 42%);
+  position: relative;
+  margin: 10px auto;
+  display: none
+}
+
+@media (max-width: 600px) {
+
+  .nav .btn.hamburger {
+    display: block;
+  }
+  }
+
+.nav .container {
+  max-width: 1200px
+}
+
+@media (max-width: 600px) {
+
+  .nav .container {
+    width: 100%;
+  }
+  }
+
+.nav .navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: hsl(45, 41%, 92%)
+}
+
+@media (min-width: 601px) {
+
+  .nav .navbar {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    background: none;
+  }
+  }
+
+@media (max-width: 600px) {
+
+  .nav .navbar.hidden {
+    display: none;
+  }
+  }
+
+.nav .navbar .btn {
+  margin: 0 auto;
+  text-align:  center;
+}
+
+.nav .navbar a {
+  color: hsl(15, 80%, 50%);
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 16px 9px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.nav .navbar a:hover {
+  color: rgb(184, 62, 20)
+}
+
+@media (max-width: 600px) {
+
+  .nav .navbar a:hover {
+    background-color: hsl(45, 41%, 88%);
+  }
+  } /* hover */
