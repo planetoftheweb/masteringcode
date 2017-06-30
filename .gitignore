@@ -4,4 +4,4 @@ node_modules
 npm-debug.log
 builds/masteringcode/css/*
 builds/masteringcode/images/*
-builds/masteringcode/js/*.js*
+builds/masteringcode/js/script.js*
