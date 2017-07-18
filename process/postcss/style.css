@@ -1,7 +1,25 @@
 html {
   font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.quote {
+  font-size: 1rem;
+}
+
+#sam {
+  font-size: 1.5rem;
+}
+
+.quote-text {
+  font-size: 2em;
 }
 
 .quote-customer {
   font-weight: bold;
+  font-size: 1.5em;
 }
