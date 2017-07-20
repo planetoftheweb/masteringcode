@@ -1,14 +1,18 @@
 {
-  "name": "masteringcode",
+  "name": "nextgen",
   "version": "1.0.0",
-  "description": "A repository for my Mastering Code course",
-  "main": "app/app.js",
-  "scripts": {
-    "start": "node app/app.js"
+  "description": "A repository for Mastering Code Interview",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-postcss": "^6.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "postcss-cssnext": "^2.10.0"
   },
-  "author": "Ray Villalobos",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+  "author": "Ray Villalobos"
 }
