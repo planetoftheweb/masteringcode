@@ -1,0 +1,18 @@
+body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 1.5rem; line-height: 150%;; margin: 0; padding: 0; width: 80%; }
+
+.container { width: 80%;  margin: 0 auto; }
+
+.btn {
+  display: block; 
+  margin: 20px 0;
+  padding: 6px 12px; 
+  font-size: 1rem; 
+  line-height: 1.42857143; 
+  outline: none; 
+  cursor: pointer; 
+  border: none; 
+  border-radius: 4px; 
+  color: #fff; 
+  background-color: hsl(175, 49%, 42%);
+  position: relative;
+}
