@@ -3,33 +3,16 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
 .container { width: 80%;  margin: 0 auto; }
 
 .btn {
-  display: inline-block; 
+  display: block; 
+  margin: 20px 0;
   padding: 6px 12px; 
   font-size: 1rem; 
   line-height: 1.42857143; 
-  text-align: center; 
+  outline: none; 
   cursor: pointer; 
-  background-image: none; 
   border: none; 
   border-radius: 4px; 
   color: #fff; 
   background-color: hsl(175, 49%, 42%);
   position: relative;
-}
-
-.tooltip {
-  background: hsla(45, 82%, 64%, .9);
-  color: black;
-  z-index: 1;
-  padding: 6px 12px; 
-  border-radius: 10px 10px 10px 0;
-  white-space: nowrap;
-  display: none;
-  position: absolute;
-}
-
-.btn:hover .tooltip {
-  display: block;
-  bottom: 40px;
-  left: 10px;
 }
