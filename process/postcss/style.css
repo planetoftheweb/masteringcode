@@ -1,50 +1,29 @@
-body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 1.5rem; line-height: 150%;; margin: 0; padding: 0; width: 80%; }
-
-.container { width: 80%;  margin: 0 auto; }
-
-.btn {
-  display: block; 
-  margin: 20px 0;
-  padding: 6px 12px; 
-  font-size: 1rem; 
-  line-height: 1.42857143; 
-  outline: none; 
-  cursor: pointer; 
-  border: none; 
-  border-radius: 4px; 
-  color: #fff; 
-  background-color: hsl(175, 49%, 42%);
-  position: relative;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.tooltip::before {
-  color: black;
-  z-index: 1;
-  padding: 6px 12px;
-  border-radius: 10px;
-  background: hsla(45,82%, 64%, .9);
-  content: attr(data-tooltip);
-  position: absolute;
-  top: -100%;
-  left: 0;
-  display: none;
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #F0AD4E;
+  width: 100vw;
+  height: 100vh;
 }
 
-.tooltip:hover::before {
+.box {
   display: block;
+  background-color: #DA3637;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  float: left;
+  margin: 5px;
 }
 
-.tooltip[data-position='right']::before {
-  top: 0;
-  left: 100%;
-}
-
-.tooltip[data-position='bottom']::before {
-  top: 100%;
-  left: 0;
-}
-
-.tooltip[data-position='left']::before {
-  top: 0;
-  left: -100%;
+.box#special {
+  background-color: #0077B5;
 }
