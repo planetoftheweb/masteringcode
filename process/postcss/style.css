@@ -16,3 +16,35 @@ body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Ro
   background-color: hsl(175, 49%, 42%);
   position: relative;
 }
+
+.tooltip::before {
+  color: black;
+  z-index: 1;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background: hsla(45,82%, 64%, .9);
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  display: none;
+}
+
+.tooltip:hover::before {
+  display: block;
+}
+
+.tooltip[data-position='right']::before {
+  top: 0;
+  left: 100%;
+}
+
+.tooltip[data-position='bottom']::before {
+  top: 100%;
+  left: 0;
+}
+
+.tooltip[data-position='left']::before {
+  top: 0;
+  left: -100%;
+}
