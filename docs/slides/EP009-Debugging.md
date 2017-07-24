@@ -70,7 +70,7 @@ There is another sub-tab called computed. The different with this tab is that it
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-page-layouts/css-debugging-tools">CSS: Page Layouts</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training-2/debugging-css">CSS Essential Training</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
 
 >> Author Notes:

@@ -32,7 +32,7 @@ JavaScript Templates
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-and-json-integration-techniques?u=2125562">JavaScript and JSON: Integration Techniques</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-and-ajax-integration-techniques">JavaScript and AJAX: Integration Techniques</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
 </ul>
 
 >> Author Notes:

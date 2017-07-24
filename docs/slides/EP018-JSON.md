@@ -40,7 +40,7 @@ JSON
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/building-web-applications-with-ajax/welcome">Building Web Applications with Ajax</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learn-api-documentation-with-json-and-xml?u=2125562">Learn API Documentation with JSON and XML</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
 </ul>
 
 >> Author Notes:
