@@ -50,7 +50,7 @@ node.addEventListener('click', e => node.classList.toggle('myClass'), false);
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions?u=104">JavaScript Functions</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training-3?u=104">JavaScript Essential Training</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
 
 >> Author Notes:
