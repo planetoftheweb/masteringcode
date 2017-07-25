@@ -9,21 +9,17 @@ body {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #F0AD4E;
+  background-color: #EEE8D6;
   width: 100vw;
   height: 100vh;
 }
 
 .box {
   display: block;
-  background-color: #DA3637;
+  background-color: #417D9A;
   width: 100px;
   height: 100px;
   border-radius: 10px;
   float: left;
   margin: 5px;
-}
-
-.box#special {
-  background-color: #0077B5;
 }
