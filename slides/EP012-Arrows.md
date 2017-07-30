@@ -2,7 +2,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Arrow Functions
+Arrow functions
 
 >> Author Notes:
 - Arrow functions are one of the new features in javascript and a lot companies are implementing them into day to day code, so you need to understand how to read them and implement them into your coding practices. Let's take a look at how they work and then look at an example of converting some existing scripts.

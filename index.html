@@ -6,9 +6,9 @@
 
 		<title>Learning</title>
 
+    <link href="css/font-awesome.min.css" rel="stylesheet"></head>
 		<link rel="stylesheet" href="css/reveal.css">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"></head>
-		<link rel="stylesheet" href="css/learning.css">
+		<link rel="stylesheet" href="css/learning.css" id="theme">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -18,14 +18,8 @@
 			link.href = window.location.search.match( 'print-pdf/gi' ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-	<style>
-		li.courses {
-			list-style: none;
-		}
-	</style>
-
-</head>
-	<body>
+	</head>
+	<body spellcheck="false">
 <div class="reveal">
 <div class="slides">
 
@@ -34,14 +28,23 @@
 
 
 </div><!-- slides -->
+
+<!-- ADD PERSISTENT NAVBAR CODE HERE -->
+<footer class="footer">
+  <div class="persistent">
+    <strong>Slides:</strong> <a href="http://raybo.org/masteringcode">slides</a> | <a href="http://github.com/planetoftheweb/masteringcode">Repo</a> | <strong>Contact:</strong>
+    <a href="https://www.linkedin.com/in/planetoftheweb">LinkedIn</a>, <a href="http://twitter.com/planetoftheweb">@planetoftheweb</a>, <a href="http://github.com/planetoftheweb">github</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a>
+  </div>
+  <div class="small">Use <strong>arrows</strong> to navigate, <strong>m</strong> for menu, <strong>esc</strong> for overview</div>
+</footer>
+<!-- ADD PERSISTENT NAVBAR CODE HERE -->
+
+
 </div><!-- reveal -->
 
 		<script src="js/lib/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 		<script>
-
-// Slides:
-// http://raybo.org/masteringcode/#?d=EP002-Closures&
 
 			function getUrlVars() {
 					var vars = [], hash;
@@ -57,17 +60,19 @@
 
 			if (getUrlVars().d) {
 				var dataFile = getUrlVars().d;
-				console.log('slides/' + dataFile + '.md');
+				//console.log('slides/' + dataFile + '.md');
 				document.querySelector('section').dataset.markdown = 'slides/' + dataFile + '.md';
-				console.log(document.querySelector('section').dataset.markdown);
+				//console.log(document.querySelector('section').dataset.markdown);
 			}
 
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+      	margin: 0,
+      	minScale: .5,
+      	maxScale: 1,
+        display: 'flex',
 				fragments: true,
 				history: true,
-				width: 960,
-				height: 700,
 				transition: 'none', // none/fade/slide/convex/concave/zoom
     		transitionSpeed: 0, // default/fast/slow
 		    backgroundTransition: 'none',
@@ -75,31 +80,45 @@
 				controls: false,
 			  progress: false,
   			rollingLinks: false,
-
-
+        menu: {
+          transitions: false,
+          openButton: false,
+          custom: [
+      			{ title: 'Files', icon: '<i class="fa fa-external-link">', src: 'slides/index.html' },
+      		]
+        },
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'js/plugin/markdown/marked.js' },
 					{ src: 'js/plugin/markdown/markdown.js' },
+          { src: 'js/plugin/menu/menu.js' },
 					{ src: 'js/plugin/notes/notes.js', async: true },
-					{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function() { 
+					{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function() {
 						hljs.configure({
 							tabReplace: '  ', // 2 spaces
 						})
-						hljs.initHighlightingOnLoad(); 
+						hljs.initHighlightingOnLoad();
 					}}
 				]
 			});
 
-			//Modifying all the PRE tags so they are teditable
 			Reveal.addEventListener( 'ready', function( event ) {
-				var nodes = document.querySelectorAll('pre');
-				nodes.forEach(function(item) {
+
+        //Modifying all the PRE tags so they are teditable
+				var preNodes = document.querySelectorAll('pre');
+				preNodes.forEach(function(item) {
 					item.contentEditable=true;
 					item.dataset.trim = true;
 				}, this);
-			});
-			
+
+        // Remove fragments in notes
+        var asideNodes = document.querySelectorAll('aside.notes li');
+				asideNodes.forEach(function(item) {
+					item.className='';
+				}, this);
+
+			}); // ready
+
 		</script>
 	</body>
 </html>

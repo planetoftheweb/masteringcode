@@ -2,7 +2,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Have you worked with NPM?
+NPM
 
 >>Author Notes:
 - If you are a modern developer looking for a job, you have to understand one key piece of tooling software and that's NPM...the node package manager. It's part of nodejs, but it's it's sort of it's own separate component. Let's take a look.

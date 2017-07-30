@@ -1,7 +1,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Event Propagation
+Event propagation
 
 >>Author Notes:
 

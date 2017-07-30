@@ -1,14 +1,14 @@
 
 <!-- .slide: data-state="title" -->
 # Mastering Code
-Bringing Closures
+Closures
 
 >> Author Notes:
 - Closures are super common concept in javascript. If you've spent some time with the language, you're probably already using them, even if you don't know you are. It's one of those concepts that makes a good, but tricky interview question. Let's take a look at a definition and then take some time for some coding practice.
 
 ---
 
-## Scope & Closures
+## Scope and Closures
 <ul>
 <li class="fragment">Scope region binding</li>
 <li class="fragment">Lexical scoping</li>
@@ -59,8 +59,8 @@ function setupitem() {
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training?u=104">JavaScript Essential Training</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions?u=104">JavaScript: Functions</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-enhancing-the-dom?u=104">Javascript: Enhancing the DOM</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-and-json?u=104">JavaScript &amp; JSON</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-enhancing-the-dom?u=104">JavaScript: Enhancing the DOM</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-and-json?u=104">JavaScript and JSON</a></li>
     </ul>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>

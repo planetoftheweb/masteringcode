@@ -1,7 +1,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Ems vs Rems
+Ems vs rems
 
 >>Author Notes:
 - CSS has two units of measurement Ems and Rems that have become really popular because of their flexibility specially when working with fonts. In this episode, we'll take a look at how they work because they can trip you up as questions during a job interview.

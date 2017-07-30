@@ -2,7 +2,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-CSS Position
+CSS position
 
 >> Author Notes:
 - One of the most important properties that page elements can have is the position property. It's useful for controlling how elements appear in relation to other elements on the page.

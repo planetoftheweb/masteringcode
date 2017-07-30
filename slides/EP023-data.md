@@ -1,7 +1,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Data Attribute
+Data attribute
 
 >>Author Notes:
 

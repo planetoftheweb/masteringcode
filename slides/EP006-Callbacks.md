@@ -14,7 +14,7 @@ Callbacks
 <ul>
   <li class="fragment">Executed asynchronously</li>
   <li class="fragment">Often tied to events</li>
-  <li class="fragment">Uses anonymous functions</li>
+  <li class="fragment">Use anonymous functions</li>
 </ul>
 
 >> Author Notes:
@@ -34,7 +34,7 @@ Callbacks
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions">JavaScript: Functions</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-events?u=104">Javascript: Events</a></li>
-      <li><a href="https://www.lynda.com/HTML-tutorials/Controlling-classes-HTML5-classList/122462/137633-4.html">Using classList</a></li>
+      <li><a href="https://www.linkedin.com/learning/javascript-enhancing-the-dom/controlling-classes-with-the-html5-classlist">Using classList</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>

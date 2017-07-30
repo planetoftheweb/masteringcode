@@ -13,7 +13,7 @@ Constructor
 
 <ul>
   <li class="fragment">Using objects</li>
-  <li class="fragment">Objects &amp; closures</li>
+  <li class="fragment">Objects and closures</li>
   <li class="fragment">Function methods</li>
 </ul>
 
@@ -34,7 +34,7 @@ Constructor
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training?u=104">JavaScript Essential Training</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions?u=104">JavaScript: Functions</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-and-json?u=104">JavaScript &amp; JSON</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-and-json?u=104">JavaScript and JSON</a></li>
     </ul>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>

@@ -2,7 +2,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-CSS Variables
+CSS variables
 
 >>Author Notes:
 - CSS is an evolving language, to stand out during an interview, it's good to show that you're keeping up with some of the latest features and one of the more useful features is variables. Let's take a look at how they work and how we can use them in an existing CSS.

@@ -36,11 +36,9 @@ Hoisting
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training-3">JavaScript: Essential Training</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions/understanding-hoisting-and-variable-scope">Understanding Hoisting</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/the-good-parts-of-javascript-and-the-web">JavaScript: The Good Parts</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-ecmascript-6/arrow-functions-and-the-this-scope">Learning ECMAScript 6
-</a></li>
-      
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-ecmascript-6/arrow-functions-and-the-this-scope">Learning ECMAScript 6</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
 
 >> Author Notes:

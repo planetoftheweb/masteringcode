@@ -1,7 +1,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-JavaScript Templates
+JavaScript templates
 
 >>Author Notes:
 - Using JSON and AJAX is great, but if you're going to parse more complex data, it's better and more common to use a templating engine.

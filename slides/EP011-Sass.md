@@ -12,8 +12,8 @@ Sass
 ## Sass
 
 <ul>
-  <li class="fragment">`.scss` vs `.sass`</li>
-  <li class="fragment">Ruby vs NodeSass</li>
+  <li class="fragment">`.scss` vs. `.sass`</li>
+  <li class="fragment">Ruby vs. Node-sass</li>
   <li class="fragment">Variables, nesting, partials, mixins</li>
 </ul>
 
@@ -22,7 +22,7 @@ Sass stands for syntactically Awesome Stylesheets, but more importantly it's a w
 
 1. First there are two versions and therefore two file extensions scss is the newer version that is more popular and looks almost exactly like regular CSS with some additional features, which is a great way to learn. As a matter of fact, you can use perfectly normal css in an scss file. The .sass file extension requires you to use an older sytanx where spaces and indentation is relevant. If you're getting started. scss is the better way to go.
 
-2. Since it is a processed language, your browser doesn't understand those files without translation. There are two main ways of translating sass. You can use Ruby, which is the original language and a lot harder to install, or you can use nodesass, which is a nodejs package. nodesass is faster at processing, so it's the better way to go, although it always lags a bit behind ruby in terms of development.
+2. Since it is a processed language, your browser doesn't understand those files without translation. There are two main ways of translating sass. You can use Ruby, which is the original language and a lot harder to install, or you can use Node-sass, which is a nodejs package. Node-sass is faster at processing, so it's the better way to go, although it always lags a bit behind ruby in terms of development.
 
 3. The main features that sass gives you are variables, nesting, partials and mixins, which are like functions. You should know that a lot of these features are becoming available in newer versions of CSS. Let's take a look at how we can use these to improve the way we write CSS.
 
