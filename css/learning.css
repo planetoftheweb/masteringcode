@@ -591,7 +591,7 @@ body {
   display: block;
   bottom: 0;
   width: 100%;
-  z-index: 500;
+  z-index: 100;
   padding: 10px 0 !important; }
 
 .footer a {

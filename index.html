@@ -106,10 +106,9 @@
   			rollingLinks: false,
         menu: {
           transitions: false,
-          openButton: false,
-          custom: [
-      			{ title: 'Files', icon: '<i class="fa fa-external-link">', src: 'slides/index.html' },
-      		]
+          themes: false,
+          slides: false,
+          openButton: false
         },
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
@@ -156,6 +155,27 @@
 				}, 5000);
 
 			}); // ready
+
+			Reveal.addEventListener( 'menu-ready', function( event ) {
+
+				var getFileIndex=new XMLHttpRequest();
+				getFileIndex.open('GET', 'slides/index.json');
+
+				getFileIndex.onreadystatechange = function () {
+					if (getFileIndex.status === 200 
+						&& getFileIndex.readyState === 4) {
+						var menuData = (getFileIndex.responseText).split(/\r\n|\r|\n/g);
+						menuData.forEach(function(element, index) {
+							menuData[index]= '<div class="slide-menu-item"><a href="?d=' + element + '&">' + element + '</a> | <a href="slides/' + element + '.md">Notes</a></div>';
+						}, this);
+
+						var menuNode = document.querySelector('.slide-menu-items');
+						menuNode.innerHTML = menuData.join('');
+						//console.log(menuData.join(''));
+					}
+				};
+				getFileIndex.send();
+			});
 
 		</script>
 	</body>
