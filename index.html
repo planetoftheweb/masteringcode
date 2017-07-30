@@ -10,6 +10,30 @@
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/learning.css" id="theme">
 
+		<style>
+			@keyframes fadein {
+  			0% { opacity: 0 }
+  			100% { opacity: 1 }
+			}
+
+			@keyframes fadeout {
+  			0% { opacity: 1 }
+  			100% { opacity: 0 }
+			}
+
+			.fadein {
+				opacity: 1;
+    		animation-name: fadein;
+    		animation-duration: 1s;
+			}
+
+			footer.fadeout {
+				opacity: 0;
+    		animation-name: fadeout;
+				transform: translate(0, 0);
+			}
+		</style>
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -30,12 +54,12 @@
 </div><!-- slides -->
 
 <!-- ADD PERSISTENT NAVBAR CODE HERE -->
-<footer class="footer">
+<footer class="footer fadein">
   <div class="persistent">
-    <strong>Slides:</strong> <a href="http://raybo.org/masteringcode">slides</a> | <a href="http://github.com/planetoftheweb/masteringcode">Repo</a> | <strong>Contact:</strong>
-    <a href="https://www.linkedin.com/in/planetoftheweb">LinkedIn</a>, <a href="http://twitter.com/planetoftheweb">@planetoftheweb</a>, <a href="http://github.com/planetoftheweb">github</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a>
+    <strong>Links:</strong> <a href="http://raybo.org/masteringcode">Slides</a> | <a href="http://github.com/planetoftheweb/masteringcode">Repo</a> | <strong>Contact:</strong>
+    <a href="https://www.linkedin.com/in/planetoftheweb">LinkedIn</a>, <a href="http://twitter.com/planetoftheweb">@planetoftheweb</a>, <a href="http://github.com/planetoftheweb">Github</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a>
   </div>
-  <div class="small">Use <strong>arrows</strong> to navigate, <strong>m</strong> for menu, <strong>esc</strong> for overview</div>
+  <div class="small"><strong>&larr; &rarr;</strong>-navigate <strong>t</strong>-toolbar <strong>m</strong>-menu <strong>esc</strong>-overview</div>
 </footer>
 <!-- ADD PERSISTENT NAVBAR CODE HERE -->
 
@@ -116,6 +140,20 @@
 				asideNodes.forEach(function(item) {
 					item.className='';
 				}, this);
+
+
+				document.addEventListener('keydown', function(e) {
+					var keyName = e.key;
+					if (keyName === 't') {
+						var myNode = document.querySelector('.footer');
+						  myNode.classList.toggle('fadeout');
+					}
+				}, false);
+
+				setTimeout(function() {
+						var myNode = document.querySelector('.footer');
+						myNode.classList.toggle('fadeout');
+				}, 5000);
 
 			}); // ready
 
