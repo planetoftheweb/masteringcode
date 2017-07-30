@@ -12,25 +12,40 @@
 
 		<style>
 			@keyframes fadein {
-  			0% { opacity: 0 }
-  			100% { opacity: 1 }
+  			0% { 
+					opacity: 0;
+					transform: translate(0, 200px);					
+				}
+				100% { 
+					opacity: 1;
+					transform: translate(0, 0);					
+				}
+				
 			}
 
 			@keyframes fadeout {
-  			0% { opacity: 1 }
-  			100% { opacity: 0 }
+  			0% {
+					opacity: 1;
+					transform: translate(0, 0);					
+				}
+  			100% { 
+					opacity: 0;
+					transform: translate(0, 200px);					
+				}
 			}
 
 			.fadein {
 				opacity: 1;
-    		animation-name: fadein;
+				animation-name: fadein;
+				animation-timing-function: ease-out;
     		animation-duration: 1s;
 			}
 
 			footer.fadeout {
 				opacity: 0;
     		animation-name: fadeout;
-				transform: translate(0, 0);
+				animation-timing-function: ease-out;
+    		animation-duration: 1s;
 			}
 		</style>
 
