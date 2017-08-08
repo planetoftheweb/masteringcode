@@ -2,14 +2,14 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-IFFE
+IIFE
 
 >> Author Notes:
 - An IFFE is a convention in javascript that helps you protect variables as well as execute some code immediately.
 
 ---
 
-## IFFE
+## IIFE
 
 ```
 (function() {
