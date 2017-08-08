@@ -33,8 +33,8 @@ It's stands for Immediately-Invoked Function Expression and there's a lot happen
 ---
 ## Resources
 <ul>
-  <li><a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Defining an IFFE</a></li>
-  <li><a href="http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript">IFFE question in Stack Overflow</a></li>
+  <li><a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Defining an IIFE</a></li>
+  <li><a href="http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript">IIFE question in Stack Overflow</a></li>
   <li style="list-style: none;">
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-essential-training">JavaScript Essential Training</a></li>
@@ -47,7 +47,7 @@ It's stands for Immediately-Invoked Function Expression and there's a lot happen
 
 
 >> Author Notes:
-- Here are some pages where you can get more information about the IFFE pattern and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
+- Here are some pages where you can get more information about the IIFE pattern and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```
 function enclose() {
