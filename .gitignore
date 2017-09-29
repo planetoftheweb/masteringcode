@@ -2,6 +2,3 @@
 node_modules
 .tmp
 npm-debug.log
-builds/masteringcode/css/*
-builds/masteringcode/images/*
-builds/masteringcode/js/*.js*
