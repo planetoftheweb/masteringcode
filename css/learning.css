@@ -84,11 +84,18 @@ body {
   margin: 20px 0;
   padding: 0 5%; }
 
+.reveal li p {
+  padding: 0;
+  margin: 0; }
+
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
-.reveal video,
-.reveal iframe {
+.reveal video {
   width: 100%;
+  height: 100%; }
+
+.reveal iframe {
+  width: 90% !important;
   height: 100%; }
 
 .reveal strong,
@@ -103,8 +110,7 @@ body {
 .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0;
-  margin-top: 20px; }
+  margin: 0 5%; }
 
 .reveal ol {
   list-style-type: decimal; }
@@ -136,14 +142,10 @@ body {
 .reveal ul ol,
 .reveal ol ol,
 .reveal ol ul {
-  display: block;
-  margin-left: 40px; }
+  display: block; }
 
 .reveal dt {
   font-weight: bold; }
-
-.reveal dd {
-  margin-left: 40px; }
 
 .reveal q,
 .reveal blockquote {
@@ -178,9 +180,10 @@ body {
 
 .reveal code {
   font-family: Calynda, monospace;
+  background: #eee;
+  color: #0077B5;
   display: inline-block;
   padding: 5px 10px;
-  margin: 10px;
   white-space: nowrap;
   cursor: text;
   border-radius: 5px; }
@@ -188,11 +191,12 @@ body {
 .reveal li code {
   background: #eee;
   color: #0077B5;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin: 2px; }
 
 .reveal pre code {
   display: block;
-  padding: 10px 20px;
+  padding: 2px 15px;
   overflow: auto;
   width: 80%;
   margin: 0 auto;
@@ -256,7 +260,7 @@ body {
 .reveal small {
   display: inline-block;
   font-size: 0.6em;
-  line-height: 120%; }
+  line-height: 100%; }
 
 /*********************************************
  * LINKS
@@ -346,18 +350,22 @@ body {
 *********************************************/
 .reveal .code-primary {
   background-color: #0077B5 !important;
+  margin: 5px;
   color: #FFF !important; }
 
 .reveal .code-success {
   background-color: #5cb85c !important;
+  margin: 5px;
   color: #FFF !important; }
 
 .reveal .code-info {
   background-color: #5bc0de !important;
+  margin: 5px;
   color: #FFF !important; }
 
 .reveal .code-warning {
   background-color: #E68523 !important;
+  margin: 5px;
   color: #FFF !important; }
 
 .reveal .code-danger {
@@ -538,29 +546,6 @@ body {
   text-shadow: 0px 0px 10px black; }
 
 /*********************************************
- * Has Bar
- *********************************************/
-.bar section {
-  height: 100vh; }
-
-.bar h1, .bar h2, .bar h3 {
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  margin: 0;
-  color: #FFF;
-  background-color: #0077B5;
-  padding: 30px 0; }
-
-.bar h1, .bar h2 {
-  width: 100vw;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  margin: 0;
-  margin-top: 0; }
-
-/*********************************************
  * Has Icon
  *********************************************/
 .hasicon .slides h2 {
@@ -581,6 +566,22 @@ body {
 /*********************************************
  * Persistent Footer
  *********************************************/
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translate(0, 200px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0); } }
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0); }
+  100% {
+    opacity: 0;
+    transform: translate(0, 200px); } }
+
 .footer {
   font-size: .5em !important;
   display: block;
@@ -591,7 +592,7 @@ body {
   display: block;
   bottom: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 500;
   padding: 10px 0 !important; }
 
 .footer a {
@@ -599,6 +600,19 @@ body {
 
 .footer a:hover {
   color: #FFF; }
+
+footer.fadein {
+  opacity: 1;
+  animation-name: fadein;
+  animation-timing-function: ease-out;
+  animation-duration: .5s; }
+
+footer.fadeout {
+  opacity: 0;
+  animation-name: fadeout;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  transform: translate(0, 200px); }
 
 @media only screen and (max-width: 450px) {
   .footer {
@@ -635,3 +649,6 @@ body {
 
 .reveal a.tooltip span {
   color: #FFF !important; }
+
+.reveal a code {
+  cursor: pointer !important; }

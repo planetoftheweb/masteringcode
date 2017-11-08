@@ -3,7 +3,7 @@
 # Mastering Code
 AJAX
 
->>Author Notes:
+> >Author Notes:
 - Every developer needs to understand how to make Asynchronous requests to a server using AJAX. Let's get started by talking about what AJAX is and then look at a quick example.
 
 ---
@@ -17,7 +17,7 @@ AJAX
   <li class="fragment">`onreadystatechange`</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. AJAX stands for Asynchronous Javascript and XML. and that means that you can make requests to a server and then not wait for an immediate response, but continue to work until the server is done with the request. Once the request is completed, the data is sent to the browser and your application can do something with that data.
 
@@ -51,7 +51,7 @@ var request=new XMLHttpRequest();
 request.open('GET', 'js/data.json');
 
 request.onreadystatechange = function () {
-  if (request.status === 200 
+  if (request.status === 200
     && request.readyState === 4) {
     data = JSON.parse(request.responseText);
     console.log(data);

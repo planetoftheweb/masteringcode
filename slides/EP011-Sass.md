@@ -4,7 +4,7 @@
 # Mastering Code
 Sass
 
->> Author Notes:
+> > Author Notes:
 - If you're applying for a job, it's really important that you know how to work with CSS pre-processors because you'll probably be asked about them during interviews. It's a better way to write CSS, but more importantly it will make you more marketable, so let's take a peek at what Sass is, why you need it and then look at an example of converting css to Sass.
 
 ---
@@ -17,7 +17,7 @@ Sass
   <li class="fragment">Variables, nesting, partials, mixins</li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 Sass stands for syntactically Awesome Stylesheets, but more importantly it's a way of writing CSS that is similar to CSS, but gives you some additional capabilities. Here's some of the essential things you need to know about the language.
 
 1. First there are two versions and therefore two file extensions scss is the newer version that is more popular and looks almost exactly like regular CSS with some additional features, which is a great way to learn. As a matter of fact, you can use perfectly normal css in an scss file. The .sass file extension requires you to use an older sytanx where spaces and indentation is relevant. If you're getting started. scss is the better way to go.
@@ -40,7 +40,7 @@ Sass stands for syntactically Awesome Stylesheets, but more importantly it's a w
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 - Here's some pages where you can get more information about working with the developer tools as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 

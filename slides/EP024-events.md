@@ -3,7 +3,7 @@
 # Mastering Code
 Event propagation
 
->>Author Notes:
+> >Author Notes:
 
 - Events are a huge part of what makes it possibly to have dynamic pages, so knowing how to work with them and understanding how they work is pretty important. Let's take a look at a real popular interview question that tests your understanding of events.
 
@@ -17,7 +17,7 @@ Event propagation
   <li class="fragment">`stopPropagation()`</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. The modern way to create events are by adding an event listener to an element and you need to pass three different parameters. First is the type of event you want to track, second is the callback or function that you want to execute when that event takes place and finally the type of propagation.
 

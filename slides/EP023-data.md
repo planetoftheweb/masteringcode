@@ -3,7 +3,7 @@
 # Mastering Code
 Data attribute
 
->>Author Notes:
+> >Author Notes:
 
 - The data attribute is a powerful way of adding meaning to your HTML tags without disrupting the structure of your HTML. You may have seen it before, but do you really know how to use it? Let's check it out.
 
@@ -17,7 +17,7 @@ Data attribute
   <li class="fragment">JS using `dataset`</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. The data attribute works just like any other attribute, but you prefix your custom name with the keyword data and a dash. You can add additional dashes if you want to if you need a more complex data attribute.
 
@@ -54,7 +54,7 @@ Data attribute
 .tooltip::before {
   color: black;
   z-index: 1;
-  padding: 6px 12px; 
+  padding: 6px 12px;
   border-radius: 10px;
   position: absolute;
   background: hsla(45, 82%, 64%, .9);

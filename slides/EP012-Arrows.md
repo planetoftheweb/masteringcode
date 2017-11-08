@@ -4,7 +4,7 @@
 # Mastering Code
 Arrow functions
 
->> Author Notes:
+> > Author Notes:
 - Arrow functions are one of the new features in javascript and a lot companies are implementing them into day to day code, so you need to understand how to read them and implement them into your coding practices. Let's take a look at how they work and then look at an example of converting some existing scripts.
 
 ---
@@ -24,7 +24,7 @@ node.addEventListener('click', function(e) {
   <li class="fragment">Doesn't bind `this`</li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 
 ```
 node.addEventListener('click', e => node.classList.toggle('myClass'), false);
@@ -53,7 +53,7 @@ node.addEventListener('click', e => node.classList.toggle('myClass'), false);
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 - Here's some pages where you can get more information about working with the developer tools as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 

@@ -113,7 +113,7 @@ var RevealMenu = window.RevealMenu || (function(){
 			}
 
 			function onDocumentKeyDown(event) {
-				if (event.keyCode === 77) {
+				if (event.keyCode === 77 && event.ctrlKey) {
 					toggleMenu();
 				} else if (isOpen()) {
 					event.stopImmediatePropagation();

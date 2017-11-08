@@ -3,7 +3,7 @@
 # Mastering Code
 JSON
 
->>Author Notes:
+> >Author Notes:
 - JSON has become a standard for sharing data, especially inside web application. It's a surprisingly simple format that translates easily into JavaScript Objects.
 
 ---
@@ -17,7 +17,7 @@ JSON
   <li class="fragment">Easy to read and parse</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. JSON stands for JavaScript Object Notation and it's a text format for sharing data between clients and servers.
 

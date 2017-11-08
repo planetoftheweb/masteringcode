@@ -4,7 +4,7 @@
 # Mastering Code
 CSS variables
 
->>Author Notes:
+> >Author Notes:
 - CSS is an evolving language, to stand out during an interview, it's good to show that you're keeping up with some of the latest features and one of the more useful features is variables. Let's take a look at how they work and how we can use them in an existing CSS.
 
 ---
@@ -18,7 +18,7 @@ CSS variables
   <li class="fragment">Use with `var(--yellow)`, `@apply`</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. The first thing you need to know about this feature is that Support is pretty good in most browsers except for internet explorer. http://caniuse.com/#feat=css-variables. However, you can use it with the PostCSS plugin, which will convert your CSS to work in older browsers. That's something you should already be using for things like prefixes anyways.
 
@@ -54,17 +54,17 @@ CSS variables
   --beige: hsl(45, 41%, 88%);
 
   --btn: {
-      display: inline-block; 
-      padding: 6px 12px; 
-      font-size: 1rem; 
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 1rem;
       line-height: 1.42857143;
       outline: none;
-      text-align: center; 
-      cursor: pointer; 
-      background-image: none; 
-      border: none; 
-      border-radius: 4px; 
-      color: #fff; 
+      text-align: center;
+      cursor: pointer;
+      background-image: none;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
       background-color: var(--green);
       position: relative;
   }

@@ -3,7 +3,7 @@
 # Mastering Code
 Ems vs rems
 
->>Author Notes:
+> >Author Notes:
 - CSS has two units of measurement Ems and Rems that have become really popular because of their flexibility specially when working with fonts. In this episode, we'll take a look at how they work because they can trip you up as questions during a job interview.
 
 ---
@@ -17,7 +17,7 @@ Ems vs rems
   <li class="fragment">Rems vs Ems</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. Pixels are the traditional way to size typography on the web, but in some older versions of IE, pixels are not resizable. That's an accessibility issue if someone doesn't have good eyesight and needs to make fonts bigger on your page.
 
@@ -43,7 +43,7 @@ Ems vs rems
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 - Here's some pages where you can get more information about working with this technology as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```

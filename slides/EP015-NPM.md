@@ -4,7 +4,7 @@
 # Mastering Code
 NPM
 
->>Author Notes:
+> >Author Notes:
 - If you are a modern developer looking for a job, you have to understand one key piece of tooling software and that's NPM...the node package manager. It's part of nodejs, but it's it's sort of it's own separate component. Let's take a look.
 
 ---
@@ -18,7 +18,7 @@ NPM
   <li class="fragment">Use through terminal</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. Let's talk about the basics. NPM allows you to create or use a variety of packages available to developers on the web. The main website where you can find these packages is [npmjs.com](https://www.npmjs.com/).
 

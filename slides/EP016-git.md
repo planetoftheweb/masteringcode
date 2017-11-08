@@ -3,7 +3,7 @@
 # Mastering Code
 Version control
 
->>Author Notes:
+> >Author Notes:
 - Version control allows you to manage changes to projects by saving the state of code at different times. By far, the most popular version control language is git with roughly 70% of professional developers saying they use it over other technologies. If you're going to a apply for a job in tech, you need to be comfortable with how it works.
 
 ---
@@ -17,7 +17,7 @@ Version control
   <li class="fragment">Stage/Commit/Branch/Merge</li>
 </ul>
 
->>Author Notes:
+> >Author Notes:
 
 1. You can think of version control as something like a time machine that lets you go to pre-defined points in time. You create save these points in time a commits that will let you come back and revisit those points in the future.
 

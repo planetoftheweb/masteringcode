@@ -4,7 +4,7 @@
 # Mastering Code
 Callbacks
 
->> Author Notes:
+> > Author Notes:
 - A callback is a convention in javascript that is often used in asynchronous programming to execute some code at a certain time in your application.
 
 ---
@@ -17,7 +17,7 @@ Callbacks
   <li class="fragment">Use anonymous functions</li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 - Callbacks are often used in JavaScript to do things asynchronously...or when you want to execute code at a certain point in time.
 
 - Because of this, they're often during in events to take care of tasks when the events are triggered.
@@ -41,7 +41,7 @@ Callbacks
 </ul>
 
 
->> Author Notes:
+> > Author Notes:
 - Here are some pages where you can get more information about this topic and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```

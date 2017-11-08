@@ -4,7 +4,7 @@
 # Mastering Code
 IIFE
 
->> Author Notes:
+> > Author Notes:
 - An IFFE is a convention in javascript that helps you protect variables as well as execute some code immediately.
 
 ---
@@ -23,7 +23,7 @@ IIFE
   <li class="fragment">Expression</li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
 It's stands for Immediately-Invoked Function Expression and there's a lot happening in all of those words, so let's break it down.
 
 - First of, this is a function that we want to execute immediately. Scripts execute when the script tag is first read, but any functions created in our script do not get executed until they're called. If you remember the code from our First Episode, you remember that we created a function and then we had to remeber to call or invoke that function. A function doesn't execute until it's invoked.
@@ -46,7 +46,7 @@ It's stands for Immediately-Invoked Function Expression and there's a lot happen
 </ul>
 
 
->> Author Notes:
+> > Author Notes:
 - Here are some pages where you can get more information about the IFFE pattern and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```
