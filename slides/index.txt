@@ -19,3 +19,4 @@ EP022-Routing
 EP023-data
 EP024-events
 EP025-hoisting
+EP027-promises
