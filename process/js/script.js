@@ -1,15 +1,33 @@
-// var howMany = 12;
-/// createBoxes(howMany);
+var content = document.querySelector('.content');
 
-(function createBoxes(qty = 4) {
-  var myBoxes = document.querySelector('.boxes');  
-  // console.log(myNode);
-  // console.log(i);
 
-  for (let i = 0; i < qty; i++) {
-    let myNode = document.createElement('div');
-    myNode.className= 'box';
-    myBoxes.appendChild(myNode);
-  }
-})(12);
 
+
+var promise = new Promise(function (resolve, reject) {
+
+  var request = new XMLHttpRequest();
+  request.open('GET', 'http://api.icndb.com/jokes/random');
+  request.onload = function () {
+    if (request.status == 200) {
+      resolve(request.response); // we got data here, so resolve the Promise
+    } else {
+      reject(Error(request.statusText)); // status is not 200 OK, so reject
+    }
+  };
+  request.onerror = function () {
+    reject(Error('Error fetching data.')); // error occurred, reject the  Promise
+  };
+
+  request.send(); //send the request
+});
+
+console.log('Asynchronous request made.');
+
+promise.then(function (data) {
+  console.log(data);
+  console.log('Got data! Promise fulfilled.');
+  content.innerHTML = JSON.parse(data).value.joke;
+}, function (error) {
+  console.log('Promise rejected.');
+  console.log(error.message);
+});
