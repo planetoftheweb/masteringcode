@@ -1,8 +1,6 @@
 var artists;
 
 function loadData(url) {
-
-  return new Promise(function(resolve, reject) {
     var req = new XMLHttpRequest();
     req.open('GET', url);
     req.onload = function() {
@@ -12,7 +10,6 @@ function loadData(url) {
       }
     } // onload callback
     req.send();
-  });
 }
 
 loadData('js/data_artists.json');
