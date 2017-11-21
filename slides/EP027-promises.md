@@ -70,3 +70,9 @@ The callback itself is an Object that can be created using a Promise constructor
 
 > > Author Notes:
 - Here's some pages where you can get more information about working with this technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like linkedin, twitter or github @planetoftheweb.
+
+- Using a callback
+- Adding a promise
+- Click event
+- Loading multiple sources
+- Forcing an order
