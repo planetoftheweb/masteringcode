@@ -1,7 +1,7 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Promises
+Fetch
 
 > >Author Notes:
 
