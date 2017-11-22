@@ -9,7 +9,7 @@ Fetch
 
 ---
 
-## Callbacks
+## Using Fetch
 
 - Uses Promises
 - Simple to use
