@@ -39,3 +39,21 @@ Promises
 
 > > Author Notes:
 - Here's some pages where you can get more information about working with this technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like linkedin, twitter or github @planetoftheweb.
+
+```
+
+var getArtists = new Request('js/data_artists.json', {
+  method: 'GET'
+});
+
+var artists = fetch(getArtists).then(function (response) {
+  return response.json();
+});
+
+document.querySelector('.load-info')
+  .addEventListener('click', function () {
+    artists.then(function(data) {
+      console.log(data.artists[0].name);
+    });
+});
+```
