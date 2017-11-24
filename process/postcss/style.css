@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,600,700);
 
 :root {
-  --max-width: 800px;
+  --max-width: 900px;
   --card-margin: .5em;
 }
 
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-group .card .card-info {
   background: rgba(255, 177, 47, 0.9);
-  padding: 3% 7%;
+  padding: .75em 1em;
 }
 
 .card-group .card .card-name {
