@@ -23,13 +23,9 @@ gulp.task('webserver', function() {
   gulp.src(dest)
     .pipe(webserver({
       livereload: true,
-<<<<<<< HEAD
       port: 3333,
-=======
-      port: 3000,
->>>>>>> 1765de3585aff4c819a2460e625324db10b82d22
       open: true
-    }));    
+    }));
 });
 
 gulp.task('default', ['webserver','watch']);
