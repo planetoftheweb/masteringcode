@@ -1,38 +1,38 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-calc();
+calc()
 
 > >Author Notes:
 
-- Fetch is the next generation API for performing AJAX requests. It's a lot simpler and easier than using the XMLHttpRequest method. Let's take a look at some of it's features.
+- Calc is a CSS feature that lets you perform mathematical calculations right in your CSS. It can be really useful when writing layout CSS because it can make things clearer.
 
 ---
 
 ## Callbacks
 
-- Uses Promises
-- Simple to use
-- Full access to features
-- Parse formats
+- Good Support
+- Combine units
+- Whitespace sensitive
+- Nestable
 
 > > Author Notes:
 
-- The main difference between fetch and XMLHttpRequest is that it uses promises, which makes it easier to set up operations and chain sequences of events outside of the request.
-- The API is built so that it's super easy to use if all you want is to load up an external document, but it also gives you complete control over the request.
-- It returns full information over the request object so you can specify things like the verb, the header information or get information like the URL, referrer and much more.
-- The fetch API also provides utilities so that the content can easily be parsed as JSON, text, blobs or others. It makes it simpler to process the request.
+- Calc has pretty good support in modern browsers, even down to internet explorer 9.
+- One of the cool features of calc is that you can mix and match units so you can ask for a percentage unit, but substract a pixel size from the unit.
+- One thing you do have to watch out for is that the plus and minus operators must be surrounded by whitespace, so you do have to be careful. A good linter might help with this.
+- You can easily nest calculations inside other calculations or use CSS variables to make things easier.
 
 ---
 
 ## Resources
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API (MDN)</a></li>
-  <li><a href="https://developers.google.com/web/updates/2015/03/introduction-to-fetch">Introduction to Fetch</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">calc (MDN)</a></li>
+  <li><a href="https://css-tricks.com/a-couple-of-use-cases-for-calc/">Calc (CSS Tricks)</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-app-building-with-vanilla-javascript/fetch-api">Fetch API</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-ecmascript-6/loading-data-with-fetch">Loading data with fetch</a></li>
+      <li style="margin-bottom: 10px">https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-postcss?trk=insiders_6787408_learning">Building a Responsive Single-Page Design with PostCSS</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-shorts-weekly/calc-it-fix-it-and-forget-it?trk=insiders_6787408_learning">CSS Shorts Weekly</a></li>
     </ul>
   <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
