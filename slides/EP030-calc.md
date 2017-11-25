@@ -27,7 +27,7 @@ calc()
 
 ## Resources
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">calc (MDN)</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc">Calc (MDN)</a></li>
   <li><a href="https://css-tricks.com/a-couple-of-use-cases-for-calc/">Calc (CSS Tricks)</a></li>
   <li style="list-style: none;">
     <ul>
