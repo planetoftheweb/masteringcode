@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,600,700);
+
+:root {
+  --max-width: 900px;
+  --card-margin: .5em;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+	background-color: rgb(231, 200, 76);
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  line-height: 160%;
+  font-weight: 300;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, Helvetica, Arial, sans-serif; 
+}
+
+.card-group .card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin-bottom: var(--card-margin);
+  transition: all .2s ease-in;
+  opacity: .8; /*.card-text*/
+}
+
+.card-group .card .card-info {
+  background: rgba(255, 177, 47, 0.9);
+  padding: .75em 1em;
+}
+
+.card-group .card .card-name {
+  font-size: 2rem;
+  line-height: 110%;
+  color: #D14348;
+}
+
+.card-group .card .card-title {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.4rem;
+  line-height: 100%;
+}
+
+.card-group .card .card-text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 130%;
+  margin: 0;
+  padding: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+#people {
+  margin: 40px 0;
+}
