@@ -27,6 +27,7 @@ body {
 
 .container {
   width: 90%;
+  max-width: calc(var(--max-width) - 10%);
   margin: 0 auto;
 }
 
@@ -72,4 +73,24 @@ h1, h2, h3, h4, h5, h6 {
 
 #people {
   margin: 40px 0;
+}
+
+@media screen and (min-width: 500px) {
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    width: calc(100% / 2 - var(--card-margin));
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: calc(100% / 3 - var(--card-margin));
+  }
 }
