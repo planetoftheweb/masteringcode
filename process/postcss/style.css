@@ -69,13 +69,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
-@media screen and (min-width: 500px) {
-  .card-group{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
 
 #people {
   margin: 40px 0;
