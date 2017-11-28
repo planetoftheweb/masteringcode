@@ -9,9 +9,9 @@ Linting
 
 ---
 
-## How linting works
+## How Linting Works
 
-- Analyzes code
+- Analyze code
 - Works with editor
 - Customizable
 - Shareable
@@ -49,7 +49,7 @@ There are several popular options and most of these are available as node packag
 
 ---
 
-## What can they do?
+## What Can They Do?
 
 - HTML
 - JavaScript
