@@ -22,4 +22,5 @@ EP025-hoisting
 EP027-promises
 EP028-fetch
 EP029-jQuery
-EP030-calc
+EP031-calc
+EP032-linting

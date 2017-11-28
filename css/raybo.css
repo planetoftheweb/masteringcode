@@ -659,5 +659,34 @@ footer.fadeout {
 .reveal a code {
   cursor: pointer !important; }
 
+/*********************************************
+ * Tooltips
+ *********************************************/
+.circles ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.circles li.fragment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 500;
+  color: #666;
+  border: 10px solid #5bc0de;
+  list-style: none;
+  padding: 1vmin;
+  font-size: 5vmin;
+  width: 22vmin;
+  height: 22vmin;
+  text-align: center;
+  line-height: 102%;
+  margin: 10px !important;
+  opacity: .5 !important; }
+
+.circles li.current-fragment {
+  opacity: 1 !important; }
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #313235; }
