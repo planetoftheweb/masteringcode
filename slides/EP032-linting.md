@@ -72,7 +72,7 @@ There are several popular options and most of these are available as node packag
 <ul>
   <li><a href="http://jslint.com/">JSLint</a></li>
   <li><a href="http://jshint.com/about/">JSHint</a></li>
-  <li><a href="https://eslint.org/">JSHint</a></li>
+  <li><a href="https://eslint.org/">ESLint</a></li>
   <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
