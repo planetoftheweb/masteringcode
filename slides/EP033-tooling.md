@@ -90,13 +90,13 @@ Tooling
 
 ## Resources
 <ul>
-  <li><a href="https://gruntjs.com/">Grunt</a> | <a href="https://gulpjs.com/">Gulp</a> | <a href="https://webpack.js.org/">Webpack</a></li>
+  <li>On the web: <a href="https://gruntjs.com/">Grunt</a> | <a href="https://gulpjs.com/">Gulp</a> | <a href="https://webpack.js.org/">Webpack</a></li>
 
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/jquery-essential-training-2?trk=insiders_6787408_learning">jQuery Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/search?keywords=chris%20converse%20jquer?trk=insiders_6787408_learning">Chris Converse on jQuery</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/jquery-for-web-designers?trk=insiders_6787408_learning">jQuery for Web Designers</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/gulp-js-git-and-browserify-web-project-workflows?trk=insiders_6787408_learning">Gulp.js, Git, and Browserify: Web Project Workflows</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/grunt-js-web-workflows?trk=insiders_6787408_learning">Grunt.js Web Workflows</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-webpack-3?trk=insiders_6787408_learning">Learning Webpack 3</a></li>
     </ul>
   </li>
 
@@ -105,6 +105,4 @@ Tooling
 
 > > Author Notes:
 
-- Regardless of what you have or use, it's important that you understand how to configure and use a good linter.
-
-- Here's some pages where you can get more information about working with this technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like linkedin, twitter or github @planetoftheweb.
+Here's some pages where you can get more information about working with these tools technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like linkedin, twitter or github @planetoftheweb.
