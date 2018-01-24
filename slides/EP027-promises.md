@@ -65,7 +65,7 @@ The callback itself is an Object that can be created using a Promise constructor
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-ecmascript-6/intro-to-promises?trk=insiders_6787408_learning">Intro to promises</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-ecmascript-6/building-promises?trk=insiders_6787408_learning">Building promises</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
 
 > > Author Notes:

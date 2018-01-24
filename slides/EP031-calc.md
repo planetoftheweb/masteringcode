@@ -34,7 +34,7 @@ calc()
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/building-a-responsive-single-page-design-with-postcss?trk=insiders_6787408_learning">Single-Page Design with PostCSS</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-shorts-weekly/calc-it-fix-it-and-forget-it?trk=insiders_6787408_learning">CSS Shorts Weekly</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
 
 > > Author Notes:

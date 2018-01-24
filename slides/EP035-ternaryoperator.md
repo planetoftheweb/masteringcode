@@ -1,23 +1,25 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Virtual DOM
+Solving Hoisting
 
 > >Author Notes:
 
-- One of the most significant developments in recent history has been the rise of the virtual DOM as a technology that can help speed up development. Let's take a look at what the virtual DOM is and how it can help you develop projects faster.
+
 
 ---
 
-## Traditional DOM
+## JavaScript Hoisting
 
-- What is it for?
-- Time consuming
+- Declarations to top of scope
+- Assignments left in place
 - Costly
 
 > > Author Notes:
 
-- Before I get to talk about the virtual DOM, it's probably a good idea to talk about how the DOM works. The DOM is of course the Document Object Model, it's the conceptual structure that is generated when you create a website. You can preview that structure on any website by using a browser like Google Chrome and looking at the inspect option.
+- JavaScript hoisting is a feature of JavaScript that causes both variables and functions to move to the top of the scope before the code executes, so the code that you write doesn't always reflect the order in which the code is actually executed. That makes 
+
+-
 
 - Since the DOM is a representation that has to be converted into what the user sees, when we create a traditional application, a lot of time has to be spend updating the code that is displayed ot the user. That can slow down your applications, specially if we end up doing unecessary updates.
 

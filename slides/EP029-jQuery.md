@@ -50,7 +50,7 @@ jQuery
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/search?keywords=chris%20converse%20jquer?trk=insiders_6787408_learning">Chris Converse on jQuery</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/jquery-for-web-designers?trk=insiders_6787408_learning">jQuery for Web Designers</a></li>
     </ul>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">Courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
 
 > > Author Notes:
