@@ -1,0 +1,10 @@
+.box {
+  display: block;
+  background: #DDD;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  float: left;
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */

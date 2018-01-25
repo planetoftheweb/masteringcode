@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,cAAc;EACd,oBAAoB;EACpB,YAAY;EACZ,YAAY;CACb","file":"style.css","sourcesContent":[".box {\n  display: block;\n  background: #DDD;\n  width: 100px;\n  height: 100px;\n  border-radius: 10px;\n  float: left;\n  margin: 5px;\n}"]}

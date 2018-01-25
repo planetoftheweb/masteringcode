@@ -26,3 +26,4 @@ EP031-calc
 EP032-linting
 EP033-tooling
 EP034-virtualdom
+EP035-ternaryoperator
