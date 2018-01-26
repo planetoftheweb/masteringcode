@@ -43,10 +43,6 @@ gulp.task('sass', function() {
 // JavaScript ES6
 gulp.task('js', function() {
   gulp.src(source + 'js/*.js')
-    .pipe(sourcemaps.init())
-    .pipe(babel())
-    .on('error', gutil.log)
-    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(dest + 'js'));
 });
 
@@ -65,11 +61,6 @@ gulp.task('webserver', function() {
       port: 3000,
       open: true
     }));
-  gulp.src('docs')
-    .pipe(webserver({
-      port: 3333,
-    }));
-    
 });
 
 gulp.task('default', ['html', 'sass', 'js', 'webserver','watch']);
