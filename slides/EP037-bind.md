@@ -8,7 +8,7 @@ This week, we'll look at one of those gotcha pieces of code you might get in an 
 
 ---
 
-## Conditional Operator
+## Binding
 
 
 - What is `this`?
@@ -27,19 +27,17 @@ http://jsbin.com/sunoxuv/1/edit?js,console
 
 https://github.com/planetoftheweb/vueinterface/blob/master/process/App.vue
 
-```
-var myModule = {
-  name: 'Ray',
-  getName: function() {
-    return console.log(this.name);
-  }
-};
+  var myModule = {
+    name: 'Ray',
+    getName: function() {
+      return console.log(this.name);
+    }
+  };
 
-myModule.getName();
+  myModule.getName();
 
-var someName = myModule.getName.bind({name:'Bob'});
-someName();
-```
+  var someName = myModule.getName.bind({name:'Bob'});
+  someName();
 
 ---
 ## Resources
@@ -50,7 +48,6 @@ someName();
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions/creating-and-namespacing-modules?trk=insiders_6787408_learning">JavaScript Essential Training</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/javascript-functions/creating-and-namespacing-modules?u=2270706">JavaScript: Functions</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/es6-the-right-parts?u=2270706?trk=insiders_6787408_learning">ES6: The Right Parts</a></li>     
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-functional-programming-with-javascript/filtering?trk=insiders_6787408_learning">ES6: The Right Parts</a></li>     
     </ul>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
