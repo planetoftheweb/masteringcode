@@ -11,13 +11,16 @@ body  {
   margin: 3rem auto;
 }
 
-.image-bridge {
+@mixin backImage(
+  $image,
+  $height: 50
+) {
   background: linear-gradient(
     to bottom,
     rgba(0,0,0, .2),
     rgba(0,0,0, .2)
-  ),url('../images/bridge.jpg');
-  height: 30vh;
+  ),url($image);
+  height: $height + vh;
   background-repeat: no-repeat;
   background-position: center center; 
   background-size: cover;
@@ -26,5 +29,13 @@ body  {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif    
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.image-bridge {
+  @include backImage('../images/bridge.jpg', 30);
+}
+
+.image-vancouver {
+  @include backImage('../images/vancouver.jpg');
 }
