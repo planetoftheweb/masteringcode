@@ -29,3 +29,4 @@ EP034-virtualdom
 EP035-ternaryoperator
 EP037-bind
 EP038-mixins
+EP039-pseudo
