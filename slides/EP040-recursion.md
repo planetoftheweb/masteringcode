@@ -20,11 +20,10 @@ function myself() {
 
 > > Author Notes:
 
-Recursion sounds a lot fancier and more complicated than it is to put it simply, it happens anytime a function calls itself. You might be thinking that it sounds dangerous and weird and it does. Isn't it dangerous to have a function call itself? Wouldn't it then go on forever.
+Recursion sounds a lot fancier and more complicated than it is to put it simply, it happens anytime a function calls itself. It's a dangerous technique for obvious reasons. A function like this will create copies of itself indefinitely until the computer running it would run out of memory.
 
 
 ---
-
 
 ## Recursion
 ```
@@ -36,16 +35,17 @@ function countUp(num, max) {
 countUp(1,5);
 ```
 
-- Needs [base case](http://planetoftheweb.jsbin.com/zutamunaco/edit?js,console)
+- Needs [base case](http://planetoftheweb.jsbin.com/baraqad/edit?js,console)
 
 > > Author Notes:
 
-Every recursive function needs something called a base case, a statement that exits the function when a condition is met. Otherwise, the function will continue to call a copy of itself forever.
+So at the very least, every recursive function needs something called a base case, a statement that exits the function when a condition is met.
 
 What's maybe not apparent from this example is that the copies will have a new set of internal variables called a stack. Without a base case, javascript will continue to ask for new variables until it either it runs out of memory or the browser runs into an internal limit...at the very least it will lock your browser while this is going on, which is never a good experience.
 
 Looking at this example, you might be asking yourself, why wouldn't you just use a loop to count up to five here. Let's take a look at another example.
 
+---
 
 ## Recursion
 
@@ -75,6 +75,7 @@ Some people love this type of pattern because it's more elegant. Some people ten
 
 
 ---
+
 ## Resources
 <ul>
   <li style="list-style: none;">
