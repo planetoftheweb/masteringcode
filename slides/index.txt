@@ -30,3 +30,14 @@ EP035-ternaryoperator
 EP037-bind
 EP038-mixins
 EP039-pseudo
+EP040-recursion
+EP041-scrict
+EP042-map
+EP043-reduce
+EP045-animation
+EP046-coercing
+EP047-immutability
+EP048-stripe
+EP049-composition
+EP051-generator
+EP052-currying
