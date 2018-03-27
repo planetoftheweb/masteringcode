@@ -19,53 +19,19 @@ This question is a bit tricky because it's about a subtle difference. Although y
 ```<!-- .element: class="fragment" -->
 
 > > Author Notes:
-
-- A pseudo-class is way of selecting an existing HTML element...that's really important because that's main difference between classes an elements
-
-- It selects that element based on either a state or a property of the element.
-
-- Pseudo classes are related to to an existing element using a single colon character.
-
-- Some common pseudo elements are :hover which let's you modify an element when you hover over it. Or :focus, where you can do something when for example an input field is activated. You'll also notice I've listed here :first-child and nth-child...two ways you can choose an element in a group based on their position.
-
----
-
-## Pseudo Elements
-
-
-- Virtual elements
-- One or two colons?
-
-```
-::before, ::after, ::first-letter
-```<!-- .element: class="fragment" -->
-
-> > Author Notes:
-
-- The main difference between a pseudo class and a pseudo element is that pseudo elements don't actually select an element, but create a sort of virtual element that didn't exist before. You can target that virtual element and then you can style it appropriately.
-
-- CSS3 rolled out the use to two colons instead of one colons to differentiate pseudo elements from pseudo classes, but because older browsers do not support the double colons, it's ok most of the time to use a single colon instead.
-
-- You can see some of the common pseudo elements here. They are a lot more scarce than pseudo classes. One good way to figure these out is to compare the difference between :first child and ::first-letter. They may seem like they're very similar, but first-child selects the first element that is a child of an element. So the target of the style is an actual element, where ::first letter lets you pick an non-existing position inside an element...the first letter of some element.
-
-Let's take a look at an example:
-
-```
-footer a:hover {
-  color: #EEC856;
-}
-
-footer a:not(.special) {
-  color: #8AC8E1;
-}
-
-footer p::first-letter {
-  color: #EEC856;
-  font-size: 150%;
-}
-```
-
-https://codepen.io/planetoftheweb/pen/JMgxOd
+“Curry
+Functions are values, and we can manipulate function values in interesting ways. Currying allows us to produce a new function by combining a function and an argument:
+var add1 = add.curry(1);
+document.writeln(add1(6));    // 7
+add1 is a function that was created by passing 1 to add 's curry method. The add1 function adds 1 to its argument. JavaScript does not have a curry method, but we can fix that by augmenting Function.prototype:
+Function.method('curry', function (  ) {
+    var args = arguments, that = this;
+    return function (  ) {
+        return that.apply(null, args.concat(arguments));
+    };
+});    // Something isn't right...
+The curry method works by creating a closure that holds that original function and the arguments to curry. It returns a function that, when invoked, returns the result of calling that original function, passing it all of the arguments from the invocation of curry and the current invocation. It uses the Array concat method to concatenate the two arrays of arguments together.
+Unfortunately, as we saw earlier, the arguments array is not an array, so it does not have the concat method. To work around that, we will apply the array slice method on both of the arguments arrays. This produces arrays that behave correctly with the[…]”
 
 ---
 ## Resources
