@@ -39,6 +39,9 @@ scold = 'You writing sloppy code?';
 
 - Run an [IIFE](https://www.linkedin.com/learning/mastering-web-developer-interview-code/how-does-an-iife-work)
 
+
+> > Author Notes:
+
 But since we're being strict, most compilers would throw a warning if you declare 'use strict' globally like this. So, you should place your use strict statement inside an 'IIFE' or immediately invoked function expression like this. That means wrapping your code with a function call like this.
 
 
