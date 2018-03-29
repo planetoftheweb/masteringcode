@@ -1,81 +1,129 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Pseudo Classes vs Elements
+Map
 
 > >Author Notes:
-This question is a bit tricky because it's about a subtle difference. Although you've probably used both pseudo classes and elements, you probably haven't thought much about how they differ, so let's dig in.
+Moving through lists of elements is a fundamental task in just about any programming job. JavaScript provides a lot of methods for doing it and one of the lesser used, yet popular functions is called map. Let's take a look at how it works and highlight some of what makes it unique.
 
 ---
 
-## Pseudo Classes
+## Map
 
-- Select an element
-- State or Property
-- Single colon `:`
+var newArray = currArray.map(function(currentValue[, index[, array]]) {
+    // Return element for new_array
+}[, thisArg])
 
-```
-:hover, :focus, :first-child, :nth-child, :not
-```<!-- .element: class="fragment" -->
+
+- `for()`, `forEach()`, `map()`
+- Immutability
+- Higher order
 
 > > Author Notes:
 
-- A pseudo-class is way of selecting an existing HTML element...that's really important because that's main difference between classes an elements
+- There's a few ways to go through a list and the oldest and the one that's most familiar to people is the for statement. Next in the order of popularity is the forEach statement. It always seems like a good idea to use that one because it's name is pretty expressive...right? foreach one of these things do the following. The last option is what we're talking about here though, the map statement.
 
-- It selects that element based on either a state or a property of the element.
+- The main advantage of map over the other methods is that it is designed so that it avoids tranforming the original array, whereas forEach is often used for instances where you need to transform arrays.
 
-- Pseudo classes are related to to an existing element using a single colon character.
-
-- Some common pseudo elements are :hover which let's you modify an element when you hover over it. Or :focus, where you can do something when for example an input field is activated. You'll also notice I've listed here :first-child and nth-child...two ways you can choose an element in a group based on their position.
+- Because of this, map is considered a higher order function, and can be used in more creative ways. Let's take a look at an example
 
 ---
 
-## Pseudo Elements
-
-
-- Virtual elements
-- One or two colons?
+## forEach
 
 ```
-::before, ::after, ::first-letter
-```<!-- .element: class="fragment" -->
+var myArr = [5, 6, 7];
+myArr.forEach(function(item, index) {
+  myArr[index] = item + 1;
+});
+console.log(myArr);
+// [6, 7, 8]
+```
 
 > > Author Notes:
 
-- The main difference between a pseudo class and a pseudo element is that pseudo elements don't actually select an element, but create a sort of virtual element that didn't exist before. You can target that virtual element and then you can style it appropriately.
+- This is a pretty common example of forEach, you can see that we can either do something to a series of elements and we often use this to go through some data elements.
 
-- CSS3 rolled out the use to two colons instead of one colons to differentiate pseudo elements from pseudo classes, but because older browsers do not support the double colons, it's ok most of the time to use a single colon instead.
+At the end of the statement, the value of myArray will have changed. Let's take a look at how the map function would take care of something like this.
 
-- You can see some of the common pseudo elements here. They are a lot more scarce than pseudo classes. One good way to figure these out is to compare the difference between :first child and ::first-letter. They may seem like they're very similar, but first-child selects the first element that is a child of an element. So the target of the style is an actual element, where ::first letter lets you pick an non-existing position inside an element...the first letter of some element.
+---
 
-Let's take a look at an example:
+## Map
 
 ```
-footer a:hover {
-  color: #EEC856;
-}
+var myArr = [5, 6, 7];
 
-footer a:not(.special) {
-  color: #8AC8E1;
-}
+var newArr = myArr.map(function(item) {
+  return item + 1;
+});
 
-footer p::first-letter {
-  color: #EEC856;
-  font-size: 150%;
-}
+console.log(newArr);
+
+// [6, 7, 8]
 ```
 
-https://codepen.io/planetoftheweb/pen/JMgxOd
+> > Author Notes:
+
+Here's a similar way we could take care of this using map. Notice map returns a new array with the modified values, the original array remains untouched.
+
+This doesn't seem too exciting and that's because this isn't necessarily the best use of Map. If all you need is to go through a sequence of data, going through the trouble of creating a new array seems like extra work, but the fact that map returns a function means that we could write this in a different way.
+
+---
+
+## Map
+
+```
+var myArray = [5, 6, 7];
+
+function inc(item) {
+  return item +1;
+}
+
+var modArr = myArray.map(inc);
+console.log(modArr);// [6, 7, 8]
+
+// [6, 7, 8]
+```
+
+> > Author Notes:
+
+This is more interesting because by making the callback into it's own function, I think what map is good for becomes a bit clearer. It's easier to take some data and run it through a series of transformations without changing the original data. Now, because Map returns a new array, it means that we can actually chain transformations together.
+
+---
+
+## Map
+
+```
+var myArray = [5, 6, 7];
+
+function inc(item) {
+  return item +1;
+}
+
+function square(item) {
+  return item * item;
+}
+
+var modArr = myArray.map(inc).map(square);
+
+console.log(modArr);
+// [36, 49, 64]
+```
+
+> > Author Notes:
+
+As you can see here, we can feed the results of a map operation into another map operation and easily work through a series of transformations. This makes map way more powerful than forEach. At the very least it makes it more fun to use.
+
+
 
 ---
 ## Resources
 <ul>
-  <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Elements</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Classes</a> | <a href="https://css-tricks.com/pseudo-class-selectors/">Classes on CSS-Tricks</a></li>
+  <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Map</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-shorts-weekly">CSS Shorts Weekly</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training">CSS Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/motion-design-with-css/introduction">Motion Design with CSS</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours">4 Semesters of Computer Science</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript">Functional-Lite JavaScript</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
