@@ -1,84 +1,106 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Pseudo Classes vs Elements
+Reduce
 
 > >Author Notes:
-This question is a bit tricky because it's about a subtle difference. Although you've probably used both pseudo classes and elements, you probably haven't thought much about how they differ, so let's dig in.
+Reduce like the method we covered in the previous week is a higher order function that it's designed to solve a common problem. Going over a list of elements and retrieving a single value related to them.
 
 ---
 
-## Pseudo Classes
+## Traditional
 
-- Select an element
-- State or Property
-- Single colon `:`
+```javascript
+var total = 0;
+var myArr = [2, 3, 4, 5, 6];
 
+for ( var i = 0; i < myArr.length; i++ ){
+    total = total + myArr[i];
+}
+
+console.log(total);
+//20
 ```
-:hover, :focus, :first-child, :nth-child, :not
-```<!-- .element: class="fragment" -->
 
 > > Author Notes:
 
-- A pseudo-class is way of selecting an existing HTML element...that's really important because that's main difference between classes an elements
+- Reducing always happens when you need to go from a list of elements to a single value. Let's take a look at how to handle this with a reducer.
 
-- It selects that element based on either a state or a property of the element.
-
-- Pseudo classes are related to to an existing element using a single colon character.
-
-- Some common pseudo elements are :hover which let's you modify an element when you hover over it. Or :focus, where you can do something when for example an input field is activated. You'll also notice I've listed here :first-child and nth-child...two ways you can choose an element in a group based on their position.
 
 ---
 
-## Pseudo Elements
+## Reduce
 
+```javascript
+var myArr = [2, 3, 4, 5, 6];
 
-- Virtual elements
-- One or two colons?
+var total = myArr.reduce(function(inc, item) {
+  return inc + item; 
+});
 
+console.log(total);
+// 20
 ```
-::before, ::after, ::first-letter
-```<!-- .element: class="fragment" -->
 
 > > Author Notes:
 
-- The main difference between a pseudo class and a pseudo element is that pseudo elements don't actually select an element, but create a sort of virtual element that didn't exist before. You can target that virtual element and then you can style it appropriately.
+- Reducing will take a callback where you can pass along a series of parameters, which are typically an incrementor, so the thing we want to keep track of as we go through the operation as well as a variable for the itement item. 
 
-- CSS3 rolled out the use to two colons instead of one colons to differentiate pseudo elements from pseudo classes, but because older browsers do not support the double colons, it's ok most of the time to use a single colon instead.
 
-- You can see some of the common pseudo elements here. They are a lot more scarce than pseudo classes. One good way to figure these out is to compare the difference between :first child and ::first-letter. They may seem like they're very similar, but first-child selects the first element that is a child of an element. So the target of the style is an actual element, where ::first letter lets you pick an non-existing position inside an element...the first letter of some element.
+---
+## Map and Reduce
 
-Let's take a look at an example:
+```javascript
+var myArr = [2, 3, 4, 5, 6];
 
+function inc(item) {
+  return item +1;
+}
+
+function addEm(inc, item) {
+  return inc + item;
+}
+
+var total = myArr.map(inc).reduce(addEm);
+ 
+console.log(total);
+// 25
 ```
-footer a:hover {
-  color: #EEC856;
-}
 
-footer a:not(.special) {
-  color: #8AC8E1;
-}
+> > Author Notes:
 
-footer p::first-letter {
-  color: #EEC856;
-  font-size: 150%;
-}
+- That means that it can be chained just like with Map, as a matter of fact, you can map and reduce together like this.
+
+---
+## Reduce with arrow functions
+
+```javascript
+var myArr = [2, 3, 4, 5, 6];
+var inc = item => item +1;
+var addEm = (inc, item) => inc + item;
+
+var total = myArr.map(inc).reduce(addEm); 
+
+console.log(total);
+// 25
 ```
 
-https://codepen.io/planetoftheweb/pen/JMgxOd
+> > Author Notes:
+
+- For simple methods, these are sometimes expressed in the newer arrow function notation, which looks like this. I'm always leery of arrow notation in code examples, because I think it's a bit less clear, but you'll probably see examples of map and reduce in expressed in this way and you should be able to read them. Make sure you check epidode titled "How do you use arrow functions in ES6? if you need a refresher
 
 ---
 ## Resources
 <ul>
-  <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Elements</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Classes</a> | <a href="https://css-tricks.com/pseudo-class-selectors/">Classes on CSS-Tricks</a></li>
+  <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">Reduce</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Map</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-shorts-weekly">CSS Shorts Weekly</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training">CSS Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/motion-design-with-css/introduction">Motion Design with CSS</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/how-do-you-use-arrow-functions-in-es6?trk=insiders_6787408_learning">Arrow functions in ES6</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours?trk=insiders_6787408_learning">4 Semesters of Computer Science</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript?trk=insiders_6787408_learning">Functional-Lite JavaScript</a></li>
     </ul>
   </li>
-  <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
+  <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos?trk=insiders_6787408_learning">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
 
 > > Author Notes:
