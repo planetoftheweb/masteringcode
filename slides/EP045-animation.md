@@ -1,81 +1,56 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Pseudo Classes vs Elements
+Animation
 
 > >Author Notes:
-This question is a bit tricky because it's about a subtle difference. Although you've probably used both pseudo classes and elements, you probably haven't thought much about how they differ, so let's dig in.
+Animation in CSS is pretty simple, it involves creating a keyframe based sequence of changes and then applying it to a CSS rule. Let's take a look.
 
 ---
 
-## Pseudo Classes
+## Defining a sequence
 
-- Select an element
-- State or Property
-- Single colon `:`
-
+```css
+@keyframes animSeq {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
 ```
-:hover, :focus, :first-child, :nth-child, :not
-```<!-- .element: class="fragment" -->
+
+- [@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 
 > > Author Notes:
 
-- A pseudo-class is way of selecting an existing HTML element...that's really important because that's main difference between classes an elements
+- Unlike most CSS rules, animation takes place in two parts. First is the definition of the structure of the animation. To do that, we use the @keyframes at Rule. This is similar to and related to media queries. 
 
-- It selects that element based on either a state or a property of the element.
+Just like with media queries notice how there's two sets of curly braces. One for the rule and one for each of the locations where we want the animation to change. At each point in the animation change. You can define different properties that get modified.
 
-- Pseudo classes are related to to an existing element using a single colon character.
-
-- Some common pseudo elements are :hover which let's you modify an element when you hover over it. Or :focus, where you can do something when for example an input field is activated. You'll also notice I've listed here :first-child and nth-child...two ways you can choose an element in a group based on their position.
-
+If it is a sequence with just a start and and end, you can use the keywords from and to, otherwise you can use a percentage.
 ---
 
-## Pseudo Elements
+## Applying properties
 
+- `animation-name`, `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count`, `animation-direction`, `animation-fill-mode`, `animation-play-state`
+- [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) combo
 
-- Virtual elements
-- One or two colons?
-
-```
-::before, ::after, ::first-letter
-```<!-- .element: class="fragment" -->
 
 > > Author Notes:
 
-- The main difference between a pseudo class and a pseudo element is that pseudo elements don't actually select an element, but create a sort of virtual element that didn't exist before. You can target that virtual element and then you can style it appropriately.
+- Like with many other properties, you have a lot of options that control how your animations are played. The key one is the animation name. that will refer to our at rule that defines the sequence, you can then specify these other things like the duration, timing functions, delays, how many times it plays, etc.
 
-- CSS3 rolled out the use to two colons instead of one colons to differentiate pseudo elements from pseudo classes, but because older browsers do not support the double colons, it's ok most of the time to use a single colon instead.
+- There's also a shorter combo where you can specify all of the options at once. 
 
-- You can see some of the common pseudo elements here. They are a lot more scarce than pseudo classes. One good way to figure these out is to compare the difference between :first child and ::first-letter. They may seem like they're very similar, but first-child selects the first element that is a child of an element. So the target of the style is an actual element, where ::first letter lets you pick an non-existing position inside an element...the first letter of some element.
-
-Let's take a look at an example:
-
-```
-footer a:hover {
-  color: #EEC856;
-}
-
-footer a:not(.special) {
-  color: #8AC8E1;
-}
-
-footer p::first-letter {
-  color: #EEC856;
-  font-size: 150%;
-}
-```
-
-https://codepen.io/planetoftheweb/pen/JMgxOd
+Let's take a look at an example of [how this works](https://codepen.io/planetoftheweb/pen/WzzYNe).
 
 ---
 ## Resources
 <ul>
-  <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Elements</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Classes</a> | <a href="https://css-tricks.com/pseudo-class-selectors/">Classes on CSS-Tricks</a></li>
+  <li>MDN: [@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes), [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+  </li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-shorts-weekly">CSS Shorts Weekly</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training">CSS Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/motion-design-with-css/introduction">Motion Design with CSS</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/motion-design-with-css?trk=insiders_6787408_learning">Motion Design with CSS</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-animation?trk=insiders_6787408_learning">Learning CSS Animation</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
