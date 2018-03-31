@@ -8,7 +8,7 @@ Immutability is a really important concept, it means that an element is unchange
 
 ---
 
-## Pseudo Classes
+## Immutability
 
 ```
 var mutt = 5;
@@ -68,8 +68,9 @@ var result = addEm(myArr);
 console.log(result); 
 ```
 
-- By encapsulating the loop, we're able to prevent the loop from modifying our original array this is better, but not as good as a function that has been designed to be immutable.
+> > Author Notes:
 
+- By encapsulating the loop, we're able to prevent the loop from modifying our original array this is better, but not as good as a function that has been designed to be immutable.
 
 ---
 
@@ -89,6 +90,8 @@ console.log(total);
 > > Author Notes:
 
 - If you've seen this example before, it's from a session a few weeks ago on the reduce function and I know this seems like the same lesson but stick with me here. Reduce is an immutable function because it doesn't modify the array, whereas when we use the foor loop we programmed it in such a way that the loop modified the original array. Using reduce is convenient, but we were able to create a for example that was also immutable. As we have seen in previous weeks, a function like reduce has the added benefit of being composable and can be combined with other higher order functions to create a chain of methods...which is pretty awesome.
+
+---
 
 ## Resources
 <ul>
