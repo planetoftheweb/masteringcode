@@ -1,81 +1,104 @@
 <!-- .slide: data-state="title" -->
 
 # Mastering Code
-Pseudo Classes vs Elements
+Immutability
 
 > >Author Notes:
-This question is a bit tricky because it's about a subtle difference. Although you've probably used both pseudo classes and elements, you probably haven't thought much about how they differ, so let's dig in.
+Immutability is a really important concept, it means that an element is unchangeable. But it's practical application in JavaScript is a little different. Let's take a look.
 
 ---
 
 ## Pseudo Classes
 
-- Select an element
-- State or Property
-- Single colon `:`
-
 ```
-:hover, :focus, :first-child, :nth-child, :not
-```<!-- .element: class="fragment" -->
+var mutt = 5;
+mutt = 3; //np
+  
+const inMutt = 5;
+inMutt = 4; //prob
+  
+const myArr = [1,2,3];
+myArr = 5; //error
+myArr[0]=1; //wat?
+```
 
 > > Author Notes:
 
-- A pseudo-class is way of selecting an existing HTML element...that's really important because that's main difference between classes an elements
+- One of the new options in the newer versions of JavaScript like ES6 is to create constants using the const keyword. That creates something similar to immutability. It's pretty logical that if we define a variable as a constant, we shouldn't be able to modify that variable. However, when we declare a list as a constant, the elements inside that list aren't technically immutable.
+That's because the assignment of the values to our lists are references to the actual lists.
 
-- It selects that element based on either a state or a property of the element.
-
-- Pseudo classes are related to to an existing element using a single colon character.
-
-- Some common pseudo elements are :hover which let's you modify an element when you hover over it. Or :focus, where you can do something when for example an input field is activated. You'll also notice I've listed here :first-child and nth-child...two ways you can choose an element in a group based on their position.
+So we have to be careful when we're talking about immutability in JavaScript because what's important about it isn't that we can't change the value of things, but that in functional programming we look to develop a style where our elements aren't changed. Let's look at a better example.
 
 ---
 
-## Pseudo Elements
-
-
-- Virtual elements
-- One or two colons?
+## Mutable
 
 ```
-::before, ::after, ::first-letter
-```<!-- .element: class="fragment" -->
+var result;
+var myArr = [1, 2, 3];
+
+for ( var i = 0; i < myArr.length; i++ ) {
+  var item += myArr[i];
+}
+
+console.log(myArr);
+```
 
 > > Author Notes:
 
-- The main difference between a pseudo class and a pseudo element is that pseudo elements don't actually select an element, but create a sort of virtual element that didn't exist before. You can target that virtual element and then you can style it appropriately.
-
-- CSS3 rolled out the use to two colons instead of one colons to differentiate pseudo elements from pseudo classes, but because older browsers do not support the double colons, it's ok most of the time to use a single colon instead.
-
-- You can see some of the common pseudo elements here. They are a lot more scarce than pseudo classes. One good way to figure these out is to compare the difference between :first child and ::first-letter. They may seem like they're very similar, but first-child selects the first element that is a child of an element. So the target of the style is an actual element, where ::first letter lets you pick an non-existing position inside an element...the first letter of some element.
-
-Let's take a look at an example:
-
-```
-footer a:hover {
-  color: #EEC856;
-}
-
-footer a:not(.special) {
-  color: #8AC8E1;
-}
-
-footer p::first-letter {
-  color: #EEC856;
-  font-size: 150%;
-}
-```
-
-https://codepen.io/planetoftheweb/pen/JMgxOd
+- This is a typical example of how we would program something like this, and it works fine for this example, but for a more complex example
 
 ---
+
+## Better
+
+```
+var myArr = [2, 3, 4, 5, 6];
+var addEm = function(items) {
+  var total = 0;
+
+  for ( var i = 0; i < items.length; i++ ){
+      total = total + items[i];
+  }
+
+  return total;
+};
+
+var result = addEm(myArr);
+console.log(result); 
+```
+
+- By encapsulating the loop, we're able to prevent the loop from modifying our original array this is better, but not as good as a function that has been designed to be immutable.
+
+
+---
+
+## Map
+
+```javascript
+var myArr = [2, 3, 4, 5, 6];
+
+var total = myArr.reduce(function(inc, item) {
+  return inc + item; 
+});
+
+console.log(total);
+// 20
+```
+
+> > Author Notes:
+
+- If you've seen this example before, it's from a session a few weeks ago on the reduce function and I know this seems like the same lesson but stick with me here. Reduce is an immutable function because it doesn't modify the array, whereas when we use the foor loop we programmed it in such a way that the loop modified the original array. Using reduce is convenient, but we were able to create a for example that was also immutable. As we have seen in previous weeks, a function like reduce has the added benefit of being composable and can be combined with other higher order functions to create a chain of methods...which is pretty awesome.
+
 ## Resources
 <ul>
-  <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Elements</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Classes</a> | <a href="https://css-tricks.com/pseudo-class-selectors/">Classes on CSS-Tricks</a></li>
+  <li>MDN: [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | [Eric Elliot](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)</li>
+
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-shorts-weekly">CSS Shorts Weekly</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-essential-training">CSS Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/motion-design-with-css/introduction">Motion Design with CSS</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours">4 Semesters of Computer Science</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript">Functional-Lite JavaScript</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-functional-programming-with-javascript/what-is-functional-programming">Learning Functional Programming</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
