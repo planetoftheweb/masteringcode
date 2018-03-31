@@ -8,7 +8,7 @@ Immutability is a really important concept, it means that an element is unchange
 
 ---
 
-## Immutability
+## Not Immutability
 
 ```
 var mutt = 5;
@@ -34,62 +34,35 @@ So we have to be careful when we're talking about immutability in JavaScript bec
 ## Mutable
 
 ```
-var result;
-var myArr = [1, 2, 3];
-
-for ( var i = 0; i < myArr.length; i++ ) {
-  var item += myArr[i];
-}
-
+var myArr = [5, 6, 7];
+myArr.forEach(function(item, index) {
+  myArr[index] = item + 1;
+});
 console.log(myArr);
+// [6, 7, 8]
 ```
 
 > > Author Notes:
 
-- This is a typical example of how we would program something like this, and it works fine for this example, but for a more complex example
-
----
-
-## Better
-
-```
-var myArr = [2, 3, 4, 5, 6];
-var addEm = function(items) {
-  var total = 0;
-
-  for ( var i = 0; i < items.length; i++ ){
-      total = total + items[i];
-  }
-
-  return total;
-};
-
-var result = addEm(myArr);
-console.log(result); 
-```
-
-> > Author Notes:
-
-- By encapsulating the loop, we're able to prevent the loop from modifying our original array this is better, but not as good as a function that has been designed to be immutable.
+- This is a typical example of how we would program something like this, and it works fine for this example and there's nothing necessarily wrong with this example, because it works, but in terms of functional programming it's better to design our fuctions so that they don't change our original arrays.
 
 ---
 
 ## Map
 
-```javascript
-var myArr = [2, 3, 4, 5, 6];
+```
+var myArray = [5, 6, 7];
 
-var total = myArr.reduce(function(inc, item) {
-  return inc + item; 
-});
-
-console.log(total);
-// 20
+function inc(item) {
+  return item +1;
+}
+var modArr = myArray.map(inc);
+console.log(modArr);
 ```
 
 > > Author Notes:
 
-- If you've seen this example before, it's from a session a few weeks ago on the reduce function and I know this seems like the same lesson but stick with me here. Reduce is an immutable function because it doesn't modify the array, whereas when we use the foor loop we programmed it in such a way that the loop modified the original array. Using reduce is convenient, but we were able to create a for example that was also immutable. As we have seen in previous weeks, a function like reduce has the added benefit of being composable and can be combined with other higher order functions to create a chain of methods...which is pretty awesome.
+- If you've seen this example before, it's from a session a few weeks ago on the reduce function and I know this seems like the same lesson but stick with me here. Map, like filter and reduce do not mutate the original array. Now technically the foreach function doesn't change the original array itself, but the way we wrote it did. Our goal when writing in the functional javascript style is to avoid writing functions that change the values of elements.
 
 ---
 
