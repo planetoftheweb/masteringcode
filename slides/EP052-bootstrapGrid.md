@@ -8,7 +8,7 @@ If I was hiring you and I wanted to make sure that you knew how to use Bootstrap
 
 ---
 
-## Pseudo Classes
+## Grid Basics
 
 - 12-column grid
 - `containers`, `rows`, `columns`
