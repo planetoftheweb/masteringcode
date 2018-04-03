@@ -24,7 +24,7 @@ var arr = [
 
 ## Resources
 <ul>
-  <li>MDN: [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | [Eric Elliot](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)</li>
+  <li>MDN: [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)</li>
 
   <li style="list-style: none;">
     <ul>
