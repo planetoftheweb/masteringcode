@@ -35,9 +35,9 @@ EP041-scrict
 EP042-map
 EP043-reduce
 EP045-animation
-EP046-coercing
+EP046-filter
 EP047-immutability
-EP048-stripe
-EP049-composition
-EP051-generator
-EP052-currying
+EP048-underline
+EP049-iteration
+EP051-jqueryBootstrap
+EP052-bootstrapGrid

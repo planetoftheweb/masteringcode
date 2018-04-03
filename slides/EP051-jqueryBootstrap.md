@@ -30,7 +30,7 @@ jQuery is arguably the most popular library being used on the web, so today, I'm
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/jquery-essential-training-2?trk=insiders_6787408_learning">jQuery Essential Training</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/bootstrap-4-essential-training?trk=insiders_6787408_learning">Bootstrap 4 Essential Training</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/jquery-for-web-designers?trk=insiders_6787408_learning">jQuer for Web Designers</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/jquery-for-web-designers?trk=insiders_6787408_learning">jQuery for Web Designers</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
@@ -39,39 +39,3 @@ jQuery is arguably the most popular library being used on the web, so today, I'm
 > > Author Notes:
 
 Here's some pages where you can get more information about working with these tools technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
-
-
----
-> > Author Notes:
-
-
-```
-<body data-spy="scroll" data-target=".site-nav" data-offset="80">
-
-.site-header .site-nav {
-  transition: all .5s ease-out;
-}
-
-.site-nav .inbody {
-  background: rgb(27, 121, 152); 
-}
-
-$(function() {
-  
-
-  // When Scrollspy Detects a change
-  $(window).on('activate.bs.scrollspy', function () {
-
-    var hash = $('.site-nav').find('a.active').attr('href');
-
-    if(hash !== '#layout-hero') {
-      $('header nav').addClass('inbody');
-    } else {
-      $('header nav').removeClass('inbody');
-    }
-
-  });
-
-}); // Make sure Document loaded
-```
-
