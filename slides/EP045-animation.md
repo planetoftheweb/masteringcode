@@ -50,7 +50,7 @@ Let's take a look at an example of [how this works](https://codepen.io/planetoft
   <li style="list-style: none;">
     <ul>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/motion-design-with-css?trk=insiders_6787408_learning">Motion Design with CSS</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-animation?trk=insiders_6787408_learning">Learning CSS Animation</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/css-animation?trk=insiders_6787408_learning">CSS: Animation</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>

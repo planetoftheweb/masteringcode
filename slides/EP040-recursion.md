@@ -80,9 +80,9 @@ Some people love this type of pattern because it's more elegant. Some people ten
 <ul>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/programming-foundations-discrete-mathematics/recursion">Programming Foundations: Recursion</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours/recursion">4 Semesters of CS: Recursion</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript/recursion">Functional-Lite JS: Recursion</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/programming-foundations-discrete-mathematics/recursion">Programming Foundations: Recursive functions</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours/recursion">Four Semesters of Computer Science in 5 Hours: Recursion</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript/recursion">Functional-Lite JavaScript: Recursion</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>

@@ -122,7 +122,7 @@ As you can see here, we can feed the results of a map operation into another map
   <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Map</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">forEach</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours">4 Semesters of Computer Science</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours">Four Semesters of Computer Science in 5 Hours</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript">Functional-Lite JavaScript</a></li>
     </ul>
   </li>

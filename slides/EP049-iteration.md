@@ -28,7 +28,7 @@ var arr = [
 
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours">4 Semesters of Computer Science</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours">Four Semesters of Computer Science in 5 Hours</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript">Functional-Lite JavaScript</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/learning-functional-programming-with-javascript/what-is-functional-programming">Learning Functional Programming</a></li>
     </ul>

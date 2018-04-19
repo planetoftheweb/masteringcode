@@ -110,8 +110,8 @@ https://codepen.io/planetoftheweb/pen/JMgxOd
   <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">Strict Mode</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/how-does-an-iife-work?trk=insiders_6787408_learning">How does an IIFE work</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/what-is-variable-hoisting-and-how-do-you-guard-against-it?trk=insiders_6787408_learning">What is variable hoisting</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/how-does-an-iife-work?trk=insiders_6787408_learning">How does an IIFE work?</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/what-is-variable-hoisting-and-how-do-you-guard-against-it?trk=insiders_6787408_learning">What is variable hoisting and how do you guard against it?</a></li>
     </ul>
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos?trk=insiders_6787408_learning">courses</a> | <a href="https://raybo.org">blog</a></li>

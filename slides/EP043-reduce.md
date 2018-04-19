@@ -95,8 +95,8 @@ console.log(total);
   <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">Reduce</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Map</a></li>
   <li style="list-style: none;">
     <ul>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/how-do-you-use-arrow-functions-in-es6?trk=insiders_6787408_learning">Arrow functions in ES6</a></li>
-      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours?trk=insiders_6787408_learning">4 Semesters of Computer Science</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/mastering-web-developer-interview-code/how-do-you-use-arrow-functions-in-es6?trk=insiders_6787408_learning">How do you use arrow functions in ES6?</a></li>
+      <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/four-semesters-of-computer-science-in-5-hours?trk=insiders_6787408_learning">Four Semesters of Computer Science in 5 Hours</a></li>
       <li style="margin-bottom: 10px"><a href="https://www.linkedin.com/learning/functional-lite-javascript?trk=insiders_6787408_learning">Functional-Lite JavaScript</a></li>
     </ul>
   </li>
