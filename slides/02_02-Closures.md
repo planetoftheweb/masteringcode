@@ -4,6 +4,7 @@
 Closures
 
 > > Author Notes:
+
 - Closures are super common concept in javascript. If you've spent some time with the language, you're probably already using them, even if you don't know you are. It's one of those concepts that makes a good, but tricky interview question. Let's take a look at a definition and then take some time for some coding practice.
 
 ---
@@ -16,6 +17,7 @@ Closures
 <li class="fragment">Remembers <a href="http://jsbin.com/dizika/3/edit?js,console">environment</a></li>
 
 > > Author Notes:
+
 - Before we can talk about closures, we need to review how JavaScript Scope works. Scope refers to the area within a computer program where a variable is available. Variables are created and exist in different regions...or scopes within an application.
 - JavaScript uses something called lexical scoping. Lexical scope describes how variable scopes are determined when there is a function inside another function. Using Lexical scope the inner function has access to variables available in the parent function.
 - A closure is created when you use the function keyword inside another function.
@@ -30,6 +32,7 @@ Closures
 <li class="fragment">Creating a function factory</li>
 
 > > Author Notes:
+
 - Closures are super common inside object definitions, and they can show you how the closures can remember state a bit better, so let's take a look at an example there.
 - Since closures remember the value of the environment they were created in, inside loop those variables are constantly changing and by the time the closures are called, the loop has already modified the values in the loop. That's a common mistake, but it's also sometimes desireable.
 - Creating a closure inside a loop is a technique called a function factory where you create a loop to generate a series of closures. It's useful for creating a series of events.
@@ -66,4 +69,5 @@ function setupitem() {
 </ul>
 
 > > Author Notes:
+
 - Here's some pages where you can get more information about closures and some related courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.

@@ -5,6 +5,7 @@
 Arrow functions
 
 > > Author Notes:
+
 - Arrow functions are one of the new features in javascript and a lot companies are implementing them into day to day code, so you need to understand how to read them and implement them into your coding practices. Let's take a look at how they work and then look at an example of converting some existing scripts.
 
 ---
@@ -54,6 +55,7 @@ node.addEventListener('click', e => node.classList.toggle('myClass'), false);
 </ul>
 
 > > Author Notes:
+
 - Here's some pages where you can get more information about working with the developer tools as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 

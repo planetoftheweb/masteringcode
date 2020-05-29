@@ -3,7 +3,7 @@
 # Mastering Code
 Hoisting
 
-> >Author Notes:
+> > Author Notes:
 
 - Javascript is a tough language to learn and often during interviews, you'll be presented with some code and asked to show what the result of some function or declaration will yield, so this week, we'll take a look at a classic issue that can trip people up during interviews and that's hoisting.
 
@@ -17,7 +17,7 @@ Hoisting
   <li class="fragment">`let` can be useful</li>
 </ul>
 
-> >Author Notes:
+> > Author Notes:
 
 1. In JavaScript variable and function declarations are processed before the code is executed. This is what we call hoisting because it moves these declarations to the top of the relevant scope. That means that you have to be careful if you start using the var keyword further down in your code because it can create code that can have potential problems.
 
@@ -41,7 +41,8 @@ Hoisting
   <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="http://www.raybo.org">raybo.org</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
+
 - Here's some pages where you can get more information about working with this technology as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```script.js

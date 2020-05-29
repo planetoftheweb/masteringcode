@@ -3,7 +3,8 @@
 # Mastering Code
 Pseudo Classes vs Elements
 
-> >Author Notes:
+> > Author Notes:
+
 This question is a bit tricky because it's about a subtle difference. Although you've probably used both pseudo classes and elements, you probably haven't thought much about how they differ, so let's dig in.
 
 ---

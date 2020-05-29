@@ -3,7 +3,8 @@
 # Mastering Code
 Animation
 
-> >Author Notes:
+> > Author Notes:
+
 Animation in CSS is pretty simple, it involves creating a keyframe based sequence of changes and then applying it to a CSS rule. Let's take a look.
 
 ---

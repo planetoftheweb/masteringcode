@@ -4,7 +4,8 @@
 # Mastering Code
 CSS variables
 
-> >Author Notes:
+> > Author Notes:
+
 - CSS is an evolving language, to stand out during an interview, it's good to show that you're keeping up with some of the latest features and one of the more useful features is variables. Let's take a look at how they work and how we can use them in an existing CSS.
 
 ---
@@ -40,7 +41,8 @@ CSS variables
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
+
 - Here's some pages where you can get more information about working with the developer tools as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 

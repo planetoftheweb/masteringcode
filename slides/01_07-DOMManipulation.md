@@ -5,6 +5,7 @@
 DOM manipulation
 
 > > Author Notes:
+
 - The DOM or Document Object Model is one of the most fundamentals components of any web application. Understanding what a developer knows about reading, writing and modifying the DOM is a good to way gauge their level of skill. It's also important for every developer to understand how to access, modify and remove elements within the DOM. Let's take a look at some definitions and then dig into some code.
 
 ---
@@ -18,6 +19,7 @@ DOM manipulation
 </ul>
 
 > > Author Notes:
+
 - The DOM is the structure that gives you access to all of the content within a website. You can target the DOM with JavaScript and CSS rules.
 - The key to accessing elements in your HTML are Nodes, think of nodes as a branch in a tree that has different sub-branches. You access the content on your page by targeting the proper node.
 - To get to those nodes, you start by targeting the window element in the current document, which is the root of the entire DOM and then asking for a node that matches different criteria. JavaScript will return either a specific node or an array-like object with all of the nodes.
@@ -34,6 +36,7 @@ DOM manipulation
 </ul>
 
 > > Author Notes:
+
 - There are several methods that allow you to access DOM nodes. The most popular by far is getElementById, it returns an element if it has an ID you specify. It's the oldest and most compatible of all DOM selection methods, but the problem is that elements don't always have IDs for you to access them.
 - There's a couple of methods that let you elements by either classname
 - or tagname. They're pretty self explanatory, the difference is that these return a list of nodes and you'll need to loop through them to get to individual nodes.
@@ -51,6 +54,7 @@ DOM manipulation
 </ul>
 
 > > Author Notes:
+
 - Once you have nodes, you'll be able to do something with them, you can, for example append regular HTML text to the nodes with innerHTML property.
 - You can also create nodes manually, and you should have some experience doing this using createElement().
 - You can also insert a node inside another node with appendChild()
@@ -75,6 +79,7 @@ Now, in an interview, you might be asked to show how well you undertand the DOM 
 
 
 > > Author Notes:
+
 - The DOM is super complex and there are lots more methods and properties that you should learn more about. Here are some pages where you can get more information about the DOM and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```

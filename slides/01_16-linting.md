@@ -3,7 +3,7 @@
 # Mastering Code
 Linting
 
-> >Author Notes:
+> > Author Notes:
 
 - Debugging code can be hard enough when you make a logical error in your thinking, but what gets really frustrating is when the error comes from something much simpler...missing punctuation or some sort of other typo. This is where a linter can help.
 

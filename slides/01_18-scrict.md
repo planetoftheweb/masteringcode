@@ -3,7 +3,8 @@
 # Mastering Code
 Strict
 
-> >Author Notes:
+> > Author Notes:
+
 Some browsers allow for running an alternate version of javascript called 'strict' mode, which makes it harder to make common programming mistakes. If you get this question in a interview, chances are people want to make sure you're aware of the feature because it's used internally in projects.
 
 ---

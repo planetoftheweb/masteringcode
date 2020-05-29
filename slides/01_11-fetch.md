@@ -3,7 +3,7 @@
 # Mastering Code
 Fetch
 
-> >Author Notes:
+> > Author Notes:
 
 - Fetch is the next generation API for performing AJAX requests. It's a lot simpler and easier than using the XMLHttpRequest method. Let's take a look at some of it's features.
 
@@ -38,6 +38,7 @@ Fetch
 </ul>
 
 > > Author Notes:
+
 - Here's some pages where you can get more information about working with this technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like linkedin, twitter or github @planetoftheweb.
 
 ```

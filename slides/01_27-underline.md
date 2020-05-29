@@ -3,7 +3,8 @@
 # Mastering Code
 Animating Underlines
 
-> >Author Notes:
+> > Author Notes:
+
 This week, we're going to be looking at a task that is a bit tougher than it seems, it requires an understanding of a number of different concepts including the position, transformations and transitions. Let's go straight into a [solution](https://codepen.io/planetoftheweb/pen/EELgzB?editors=1100) for this problem, which I've placed on this CodePen.
 
 ---

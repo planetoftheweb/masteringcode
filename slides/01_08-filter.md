@@ -3,7 +3,8 @@
 # Mastering Code
 Filtering
 
-> >Author Notes:
+> > Author Notes:
+
 This question about searching through a series of elements can be accomplished in several ways, but in the last few episodes, I've been showing you how you can work with higher order functions to perform actions on items without modifying arrays. Let's take a look at one of those functions called filter to see how we can take care of this common task.
 
 ---

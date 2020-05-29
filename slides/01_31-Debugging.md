@@ -5,6 +5,7 @@
 Debugging CSS
 
 > > Author Notes:
+
 - In our interview with John Riviello, we learned that one of the important skills developers need is their ability to debug their code. In this episode, we'll take a look at some of my favorite ways to debug css with the Chrome Developer Tools.
 
 ---
@@ -18,6 +19,7 @@ Debugging CSS
 </ol>
 
 > > Author Notes:
+
 Although we're using chrome, all browsers have their own set of developer tools, which are fairly comparable with what I'm going to go over, regardless of the tool you're using, it's critical to be comfortable with the developer tools you know. Developer tools are pretty deep, so I'm going to focus on just CSS in this episode and the following things.
 
 1. First, I'm going to talk about navigating the DOM, or the structure of the page, so that you can target a specific element. In the Chrome Browser, you do that through the Elements tab.
@@ -74,4 +76,5 @@ There is another sub-tab called computed. The different with this tab is that it
 </ul>
 
 > > Author Notes:
+
 - Here's some pages where you can get more information about working with the developer tools as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.

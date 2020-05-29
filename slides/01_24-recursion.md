@@ -3,7 +3,8 @@
 # Mastering Code
 Recursion
 
-> >Author Notes:
+> > Author Notes:
+
 Recursion is a development technique that is popular among developers, so it can be a common question during interviews. Let's take a look at what it is an more importantly when it is useful.
 
 ---
@@ -63,6 +64,7 @@ fibby(8);
 - Used [instead of loops](http://planetoftheweb.jsbin.com/quzazam/edit?js,console)
 
 > > Author Notes:
+
 This is a more typical interview question for recursion. I'm trying to calculate something called fibbonacci numbers. That's a series of numbers where each number is the result of the addition of the previous two numbers. It's a pattern that appears commonly in the natural world.
 
 We're using recursion to calculate the sum of a series of numbers. When we call fibby here, it's going to start a sequence of calls to new functions until it reaches the base case and it calls fibby with a value of 1. At the end of this, we're going to get an array of the fibbonacci sequence.

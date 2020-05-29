@@ -3,7 +3,7 @@
 # Mastering Code
 Event propagation
 
-> >Author Notes:
+> > Author Notes:
 
 - Events are a huge part of what makes it possibly to have dynamic pages, so knowing how to work with them and understanding how they work is pretty important. Let's take a look at a real popular interview question that tests your understanding of events.
 
@@ -17,7 +17,7 @@ Event propagation
   <li class="fragment">`stopPropagation()`</li>
 </ul>
 
-> >Author Notes:
+> > Author Notes:
 
 1. The modern way to create events are by adding an event listener to an element and you need to pass three different parameters. First is the type of event you want to track, second is the callback or function that you want to execute when that event takes place and finally the type of propagation.
 
@@ -40,7 +40,8 @@ Event propagation
   <li style="list-style: none; font-size: 1.3rem;"><a href="https://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
+
 - Here's some pages where you can get more information about working with this technology as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```script.js

@@ -3,7 +3,8 @@
 # Mastering Code
 Conditional Operator
 
-> >Author Notes:
+> > Author Notes:
+
 The conditional operator is a different version of the regular conditional expression in JavaScript. It's something that you'll probably see in a lot of code and it might come up during some interview questions, so let's take a look.
 
 

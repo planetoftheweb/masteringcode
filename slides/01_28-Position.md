@@ -5,6 +5,7 @@
 CSS position
 
 > > Author Notes:
+
 - One of the most important properties that page elements can have is the position property. It's useful for controlling how elements appear in relation to other elements on the page.
 
 ---
@@ -19,6 +20,7 @@ CSS position
 </ul>
 
 > > Author Notes:
+
 The position property is particularly useful for creating things like tooltips or dropdown menus. The key thing to remember about the position property is that it helps you control how elements affect the flow of content within a page.
 
 - There are four main position properties available...The default position is called static, and the other ones are relative, absolute and fixed. There's an experimental property called sticky that allows content to stick to the page as it is scrolled, but it barely has any browser support as of now, so we'll skip this one.
@@ -60,6 +62,7 @@ The position property is particularly useful for creating things like tooltips o
 
 
 > > Author Notes:
+
 - Here are some pages where you can get more information about the IFFE pattern and some courses you might want to consider taking. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```

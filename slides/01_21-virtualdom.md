@@ -3,7 +3,7 @@
 # Mastering Code
 Virtual DOM
 
-> >Author Notes:
+> > Author Notes:
 
 - One of the most significant developments in recent history has been the rise of the virtual DOM as a technology that can help speed up development. Let's take a look at what the virtual DOM is and how it can help you develop projects faster.
 

@@ -3,7 +3,8 @@
 # Mastering Code
 JavaScript templates
 
-> >Author Notes:
+> > Author Notes:
+
 - Using JSON and AJAX is great, but if you're going to parse more complex data, it's better and more common to use a templating engine.
 
 ---
@@ -15,7 +16,7 @@ JavaScript templates
   <li class="fragment">EJS</li>
 </ul>
 
-> >Author Notes:
+> > Author Notes:
 
 1. Templating is a really common task in JavaScript because it makes parsing easier. It's part of several languages like React and something even implemented in ES6. In this video, we'll examine the concept as well as a specific implementation called EJS.
 
@@ -35,7 +36,8 @@ JavaScript templates
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
+
 - Here's some pages where you can get more information about working with this technology as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```

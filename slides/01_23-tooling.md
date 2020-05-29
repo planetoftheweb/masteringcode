@@ -3,7 +3,7 @@
 # Mastering Code
 Tooling
 
-> >Author Notes:
+> > Author Notes:
 
 - One of the most important skills you should have is learning how to set up and work with different environments. This week, I'm going to talk about the tooling environments you should know, what makes them special and why you should learn them.
 

@@ -3,7 +3,8 @@
 # Mastering Code
 Reduce
 
-> >Author Notes:
+> > Author Notes:
+
 Reduce like the method we covered in the previous week is a higher order function that it's designed to solve a common problem. Going over a list of elements and retrieving a single value related to them.
 
 ---

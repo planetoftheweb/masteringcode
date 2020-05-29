@@ -3,7 +3,8 @@
 # Mastering Code
 Immutability
 
-> >Author Notes:
+> > Author Notes:
+
 Immutability is a really important concept, it means that an element is unchangeable. But it's practical application in JavaScript is a little different. Let's take a look.
 
 ---

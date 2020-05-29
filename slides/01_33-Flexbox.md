@@ -5,6 +5,7 @@
 Flexbox
 
 > > Author Notes:
+
 - Flexbox is one of the display properties and it brings makes single dimensional layout super easy. A good front-end developer should be familiar with this technology and comfortable with how it works, so let's takea look at how it's used to control horizontal alignment and then take a look at an example that you might be asked to build during a coding test.
 
 ---
@@ -19,6 +20,7 @@ Flexbox
 </ul>
 
 > > Author Notes:
+
 - Flexbox is one of the available CSS display properties. There are several display properties and this is just one of them. Flexbox is perfect for laying out simple dimensional content. There's a separate property called grid that is for more complex layouts, but it doesn't have great browser support.
 
 - Although flexbox has good browser support, depending on what browsers you're targeting, the syntax can get a bit complex, so you should use something like postCSS to manage the conversion to the different versions of the syntax depending on which browsers you're supporting.
@@ -66,6 +68,7 @@ Flexbox
 </ul>
 
 > > Author Notes:
+
 - The main rule you add on the parent is the display: flex rule; This sets up the main parent container and establishes some defaults. Flexbox is too complex to cover in a single question, so we'll focus on just the horizontal components in this episode.
 
 - Once you establish the parent container as a flexbox component, you can specify how elements inside will flow. You can choose that the elements behave as rows, which is the default. That means that those elements will display side by side. This is sort of like floating elements. The other option is to stack children on top of one another in columns. There are also options to reverse the order of rows and columns so that they show up in reverse.
@@ -92,6 +95,7 @@ Flexbox
 
 
 > > Author Notes:
+
 - Flexbox is pretty complicated and full of options, but if you understand a basic layout like the one we've done here, it's pretty easy to pickup the rest. Here are some additional resources and courses you should check out. Also, if you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```

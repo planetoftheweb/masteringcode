@@ -3,7 +3,8 @@
 # Mastering Code
 Sass Mixins
 
-> >Author Notes:
+> > Author Notes:
+
 In the 2017 State of JavaScript survey, the Sass language outperformed CSS in terms of the amount of people who would prefer to use it on a project. If you're interviewing for a job today, it's something you need to be comfortable with. In this episode, we'll take a look at how to build a mixin using Sass.
 
 ---

@@ -3,7 +3,8 @@
 # Mastering Code
 Routing
 
-> >Author Notes:
+> > Author Notes:
+
 - Modern web apps can often communicate with the server and have more direct access to the request that's being sent and the response that you get back. One of the technologies that works really well for managing routes is Node with the ExpressJS framework, so let's take a look at what it's all about.
 
 ---
@@ -16,7 +17,7 @@ Routing
   <li class="fragment">Node &amp; ExpressJS</li>
 </ul>
 
-> >Author Notes:
+> > Author Notes:
 
 1. An application that can manage routing uses the URI or Uniform Resource Identifier to communicate and send requests to a server.
 
@@ -39,7 +40,8 @@ Let's take a look at how it works and build the simplest of apps that routes rea
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">raybo.org</a></li>
 </ul>
 
->> Author Notes:
+> > Author Notes:
+
 - Here's some pages where you can get more information about working with this technology as well as some related courses with information on developer tools. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
 
 ```app.js

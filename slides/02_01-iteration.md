@@ -3,7 +3,8 @@
 # Mastering Code
 Composition
 
-> >Author Notes:
+> > Author Notes:
+
 Sometimes, the questions we get during interviews are designed to test, not what we would but why we would solve a problem a certain way, it's why sometimes chefs give cooking tests asking people to cook something simple like an egg. Let's look at a simple question.
 
 ---
@@ -35,6 +36,7 @@ var arr = [
   </li>
   <li style="list-style: none; font-size: 1.3rem;"><a href="hhttps://www.linkedin.com/in/planetoftheweb">linkedin.com/in/planetoftheweb</a> | <a href="https://www.twitter.com/planetoftheweb">@planetoftheweb</a> | <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">courses</a> | <a href="https://raybo.org">blog</a></li>
 </ul>
+
 > > Author Notes:
 
 Here's some pages where you can get more information about working with these tools technology as well as some related courses. If you have some ideas for this weekly series, maybe you want to share with me some questions you've been asked or have asked in interviews connect with me in LinkedIn or just about any social media network like twitter or github @planetoftheweb.
